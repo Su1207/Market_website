@@ -1,6 +1,7 @@
 import { get, onValue, ref } from "firebase/database";
 import React, { useEffect, useState } from "react";
 import { database } from "../firebase";
+import { useNavigate } from "react-router-dom";
 
 const formatResult = (open, mid, close) => {
   return `${open}-${mid}-${close}`;
@@ -42,6 +43,7 @@ const MarketResult = () => {
           snapshot.forEach((gameSnapshot) => {
             const gameKey = gameSnapshot.key;
             const resultData = gameSnapshot
+              .child("RESULT")
               .child(year)
               .child(month)
               .child(day)
@@ -83,6 +85,16 @@ const MarketResult = () => {
       unsubscribeResults();
     };
   }, [day]);
+
+  const navigate = useNavigate();
+
+  const handlePanel = (gameKey) => {
+    navigate(`panelChartRecord/${gameKey}`);
+  };
+
+  const handleJodi = (gameKey) => {
+    navigate(`jodiChartRecord/${gameKey}`);
+  };
 
   return (
     <div className=" w-full">
@@ -127,7 +139,10 @@ const MarketResult = () => {
                         : data?.COLOR,
                   }}
                 >
-                  <div className=" bg-violet-800 text-white font-semibold p-1 px-2 text-sm rounded-lg">
+                  <div
+                    onClick={() => handleJodi(data.key)}
+                    className=" bg-violet-800 text-white font-semibold cursor-pointer p-1 px-2 text-sm rounded-lg"
+                  >
                     Jodi
                   </div>
                   <div className="flex xs:flex-row flex-col gap-2 xs:gap-0 justify-center items-center xs:justify-between p-5 xs:px-8 py-8">
@@ -142,7 +157,10 @@ const MarketResult = () => {
                       <div>{convertToTime(data.CLOSE)}</div>
                     </div>
                   </div>
-                  <div className=" bg-violet-800 text-white font-semibold p-1 px-2 text-sm rounded-lg">
+                  <div
+                    className=" bg-violet-800 text-white cursor-pointer hover:bg-violet-950 font-semibold p-1 px-2 text-sm rounded-lg"
+                    onClick={() => handlePanel(data.key)}
+                  >
                     Panel
                   </div>
                 </div>
