@@ -2,12 +2,12 @@ import React from "react";
 
 const Introduction = () => {
   return (
-    <div className=" bg-orange-400 text-black py-4">
+    <div className=" bg-orange-400 text-black p-4">
       <div className=" text-3xl font-bold text-center mt-10 my-4 font-playwrite">
         Introduction to Shree Laxmi
       </div>
 
-      <p className=" text-center text-xs font-semibold font-poppins p-4 leading-6">
+      <p className=" sm:text-center text-justify text-xs font-semibold font-poppins p-4 leading-6">
         Welcome To DPBoss, Where Entertainment Takes Center Stage, And A World
         Of Diverse Activities Awaits You. In Our Vibrant Community, We've
         Crafted An Experience Beyond Conventional Platforms, Offering A Rich
@@ -30,10 +30,10 @@ const Introduction = () => {
         Games Hold The Potential To Unlock Fortunes.
       </p>
 
-      <h4 className=" text-xl font-bold font-playwrite text-center py-4">
+      <h4 className=" text-xl font-bold font-playwrite text-center p-4">
         History of Shree Laxmi
       </h4>
-      <p className=" text-center text-xs font-semibold font-poppins p-4 leading-6">
+      <p className=" sm:text-center text-justify text-xs font-semibold font-poppins p-4 leading-6">
         The History Of Satta Matka Dates To The 1960s When It Originated As A
         Form Of Gambling In Mumbai, India. Initially, It Involved Betting On The
         Opening And Closing Rates Of Cotton In The Bombay Cotton Exchange. The
@@ -50,10 +50,10 @@ const Introduction = () => {
       </p>
       <div className="border border-red-500 h-0 w-full my-3"></div>
 
-      <h4 className=" text-xl font-bold font-playwrite text-center py-4">
+      <h4 className=" text-xl font-bold font-playwrite text-center p-4">
         Types of Satta Matka
       </h4>
-      <p className=" text-center text-xs font-semibold font-poppins p-4 leading-6">
+      <p className=" sm:text-center text-justify text-xs font-semibold font-poppins p-4 leading-6">
         Kalyan Matka: Kalyan Matka Is One Of The Most Popular Variants Of Satta
         Matak Which Focuses On Betting That Are Based On Opening And Closing Of
         Cotton In The Bombay Cotton Exchange. They Have Their Own Rules Of Draws
@@ -80,10 +80,10 @@ const Introduction = () => {
 
       <div className="border border-red-500 h-0 w-full my-3"></div>
 
-      <h4 className=" text-xl font-bold font-playwrite text-center py-4">
+      <h4 className=" text-xl font-bold font-playwrite text-center p-4">
         The Basic of Matka
       </h4>
-      <p className=" text-center text-xs font-semibold font-poppins p-4 leading-6">
+      <p className=" sm:text-center text-justify text-xs font-semibold font-poppins p-4 leading-6">
         Matka Game Officially Originated In India 1960s. It Is A Very Popular
         Lottery Style Which Involves Betting On Number And Combination And If
         The Result Drawn Matched Your Combination The Layer Can Win Potential
@@ -118,10 +118,10 @@ const Introduction = () => {
 
       <div className="border border-red-500 h-0 w-full my-3"></div>
 
-      <h4 className=" text-xl font-bold font-playwrite text-center py-4">
+      <h4 className=" text-xl font-bold font-playwrite text-center p-4">
         Different Variants of Matka Game
       </h4>
-      <p className=" text-center text-xs font-semibold font-poppins p-4 leading-6 ">
+      <p className=" sm:text-center text-justify text-xs font-semibold font-poppins p-4 leading-6 ">
         There Are Several Variants Of Matka Games That Have Emerged Over Time.
         Here Are Some Of The Popular Ones:
         <br /> Single: In This Format The Player Needs To Bet On The Single
@@ -144,10 +144,10 @@ const Introduction = () => {
 
       <div className="border border-red-500 h-0 w-full my-3"></div>
 
-      <h4 className=" text-xl font-bold font-playwrite text-center py-4">
+      <h4 className=" text-xl font-bold font-playwrite text-center p-4">
         What is Kalyan Matka and its Winning Strategy
       </h4>
-      <p className=" text-center text-xs font-semibold font-poppins p-4 leading-6 ">
+      <p className=" sm:text-center text-justify text-xs font-semibold font-poppins p-4 leading-6 ">
         Kalyan Matka Is A Popular Form Of Gambling That Originated In India,
         Focusing On The Opening, And Closing Rates Of Cotton Traded On The
         Bombay Cotton Exchange. Over Time, It Has Evolved Into A Game Where
@@ -165,7 +165,7 @@ const Introduction = () => {
 
       <div className="border border-red-500 h-0 w-full my-3"></div>
 
-      <h4 className=" text-xl font-bold font-playwrite text-center py-4"></h4>
+      <h4 className=" text-xl font-bold font-playwrite text-center p-4"></h4>
     </div>
   );
 };

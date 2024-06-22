@@ -7,7 +7,7 @@ const Footer = () => {
         <h2 className=" text-center text-xl font-bold font-poppins">
           Disclaimer
         </h2>
-        <p className=" text-center text-xs font-semibold font-poppins p-4 leading-6 ">
+        <p className=" text-justify sm:text-center text-xs font-semibold font-poppins p-4 leading-6 ">
           Visiting this site and browsing it is strictly recommended at your own
           risk. Every information available here is only according to
           informational purpose and based on astrology and number calculations.
