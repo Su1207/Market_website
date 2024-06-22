@@ -2,6 +2,9 @@ import { get, onValue, ref } from "firebase/database";
 import React, { useEffect, useState } from "react";
 import { database } from "../firebase";
 import { useNavigate } from "react-router-dom";
+import Introduction from "../components/Introduction";
+import Welcome from "../components/Welcome";
+import Footer from "../components/Footer";
 
 const formatResult = (open, mid, close) => {
   return `${open}-${mid}-${close}`;
@@ -97,9 +100,10 @@ const MarketResult = () => {
   };
 
   return (
-    <div className=" w-full">
-      <div className="text-2xl sm:text-4xl font-bold text-center mt-3">
-        Market Result
+    <div className=" w-full bg-orange-100">
+      <Welcome />
+      <div className="text-xl sm:text-3xl font-playwrite uppercase font-bold text-center my-8">
+        Fastest Market Result
       </div>
       {isLoading ? (
         <div className="h-[90vh] w-full flex justify-center items-center">
@@ -126,7 +130,7 @@ const MarketResult = () => {
           <div className="font-semibold">loading</div>
         </div>
       ) : (
-        <div className=" bg-blue-100 m-4 rounded-md">
+        <div className=" m-4 rounded-md font-poppins border border-red-500">
           {result &&
             result.map((data, index) => (
               <div key={index}>
@@ -169,6 +173,9 @@ const MarketResult = () => {
             ))}
         </div>
       )}
+
+      <Introduction />
+      <Footer />
     </div>
   );
 };
