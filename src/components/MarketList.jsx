@@ -13,8 +13,8 @@ const MarketList = ({ result }) => {
   };
 
   return (
-    <div className="flex items-start w-[97%] mx-[1.5%] gap-[1.5%] my-5 ">
-      <div className=" shadow-lg p-4 w-1/2 rounded-md bg-amber-400">
+    <div className="flex md:flex-row flex-col items-start w-[97%] mx-[1.5%] gap-4 md:gap-[1.5%] my-5 ">
+      <div className=" shadow-lg p-4 w-full md:w-1/2 rounded-md bg-amber-400">
         <div className=" text-2xl font-bold font-playwrite text-center mb-8">
           Satta Matka Jodi Chart
         </div>
@@ -31,7 +31,7 @@ const MarketList = ({ result }) => {
             ))}
         </div>
       </div>
-      <div className=" shadow-lg p-4 w-1/2 bg-amber-400 rounded-md">
+      <div className=" shadow-lg p-4 w-full md:w-1/2 bg-amber-400 rounded-md">
         <div className=" text-2xl font-bold font-playwrite text-center mb-8">
           Satta Matka Panel Chart
         </div>
