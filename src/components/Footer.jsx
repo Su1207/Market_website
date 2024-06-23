@@ -4,6 +4,18 @@ const Footer = () => {
   return (
     <div>
       <div className=" mx-4 my-8 border rounded-md border-red-500 p-4">
+        <h2 className=" text-center text-xl font-bold font-poppins">Matka</h2>
+        <p className=" text-justify sm:text-center text-xs font-semibold font-poppins p-4 leading-6 ">
+          Madhur Matka | Satta Bazar | Satta Kurla | Satta Com | Satta Batta |
+          Org Mobi Net In | Satta Master | Matka Game | Kapil Indian Matka |
+          Matka Parivar 24 | Prabhat Matka | Tara Matka | Golden Matka |
+          SattaMatka.Com | Madhur Matka satta result chart, satta khabar, matka
+          India net, satakmatak, satta chart 2019, satta bazar result, satta
+          live, satta bazar, satta matka Mumbai chart, satta live result, satta
+          fast result, satta fast, satta today Number 10
+        </p>
+      </div>
+      <div className=" mx-4 my-8 border rounded-md border-red-500 p-4">
         <h2 className=" text-center text-xl font-bold font-poppins">
           Disclaimer
         </h2>
@@ -22,7 +34,7 @@ const Footer = () => {
           against the law.
         </p>
       </div>
-      <div className=" p-4 bg-black text-white">
+      <div className=" px-4 py-12 bg-black text-white">
         <h2 className=" text-xl font-bold font-poppins text-center">
           POWERED BY <span className=" font-playwrite">Shree Laxmi</span>
         </h2>

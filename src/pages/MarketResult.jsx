@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import Introduction from "../components/Introduction";
 import Welcome from "../components/Welcome";
 import Footer from "../components/Footer";
+import MarketList from "../components/MarketList";
 
 const formatResult = (open, mid, close) => {
   return `${open}-${mid}-${close}`;
@@ -99,8 +100,21 @@ const MarketResult = () => {
     navigate(`jodiChartRecord/${gameKey}`);
   };
 
+  const handleReload = () => {
+    window.location.reload();
+  };
+
   return (
-    <div className=" w-full bg-orange-100">
+    <div className="relative w-full bg-orange-200">
+      <div className="fixed bottom-2 border-2 border-gray-300 left-3 bg-blue-800 text-white cursor-pointer hover:bg-black transition-all duration-300 ease-out font-semibold py-2 px-3 text-sm rounded-md">
+        Matka Play
+      </div>
+      <div
+        onClick={handleReload}
+        className="fixed bottom-2 right-3 border-2 border-gray-300 bg-blue-800 text-white cursor-pointer hover:bg-blue-950 transition-all duration-300 ease-out font-semibold py-2 px-4 text-sm rounded-md"
+      >
+        Refresh
+      </div>
       <Welcome />
       <div className="text-xl sm:text-3xl font-playwrite uppercase font-bold text-center my-8">
         Fastest Market Result
@@ -173,6 +187,8 @@ const MarketResult = () => {
             ))}
         </div>
       )}
+
+      <MarketList result={result} />
 
       <Introduction />
       <Footer />
