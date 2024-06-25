@@ -6,6 +6,7 @@ import Introduction from "../components/Introduction";
 import Welcome from "../components/Welcome";
 import Footer from "../components/Footer";
 import MarketList from "../components/MarketList";
+import MarketTracker from "../components/MarketTracker";
 
 const formatResult = (open, mid, close) => {
   return `${open}-${mid}-${close}`;
@@ -116,6 +117,9 @@ const MarketResult = () => {
         Refresh
       </div>
       <Welcome />
+
+      <MarketTracker />
+
       <div className="text-xl sm:text-3xl font-playwrite uppercase font-bold text-center my-8">
         Fastest Market Result
       </div>
