@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const PrivacyNotice = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <div className="container mx-auto px-4 p-6 bg-orange-200 font-poppins">
       <h1 className=" text-5xl font-bold text-center font-playwrite pt-2 mb-8">

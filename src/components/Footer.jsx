@@ -54,13 +54,19 @@ const Footer = () => {
             </div>
           </div>
           <div className=" flex items-center gap-2">
-            <div className=" cursor-pointer hover:text-blue-500 transition-all duration-300 ease-out">
+            <Link
+              to={"/privacy"}
+              className=" cursor-pointer hover:text-blue-500 transition-all duration-300 ease-out"
+            >
               Privacy & Policy
-            </div>
+            </Link>
             <div className=" border h-3 mt-1 w-0"></div>
-            <div className=" cursor-pointer hover:text-blue-500 transition-all duration-300 ease-out">
+            <Link
+              to={"/termsOfService"}
+              className=" cursor-pointer hover:text-blue-500 transition-all duration-300 ease-out"
+            >
               Terms and Conditions
-            </div>
+            </Link>
           </div>
         </div>
       </div>

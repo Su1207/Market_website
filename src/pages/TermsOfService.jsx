@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import OtherPageFooter from "../components/OtherPageFooter";
 
 const TermsOfService = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <div>
       <div className="container mx-auto p-6 bg-orange-200 font-poppins">
