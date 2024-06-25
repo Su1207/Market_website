@@ -5,6 +5,7 @@ import LabelResult from "./pages/LabelResult";
 import About from "./pages/About";
 import PrivacyNotice from "./pages/PrivacyNotice";
 import TermsOfService from "./pages/TermsOfService";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/privacy" element={<PrivacyNotice />} />
         <Route path="/termsOfService" element={<TermsOfService />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </>
   );

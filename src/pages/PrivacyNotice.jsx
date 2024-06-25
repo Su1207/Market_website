@@ -9,12 +9,14 @@ const PrivacyNotice = () => {
       <h1 className=" text-5xl font-bold text-center font-playwrite pt-2 mb-8">
         Shree Laxmi
       </h1>
-      <h1 className="text-3xl font-bold mb-4">PRIVACY NOTICE</h1>
-      <p className=" mb-6 text-lg text-gray-700 font-semibold">
+      <h1 className="text-3xl text-center sm:text-left font-bold mb-4">
+        PRIVACY NOTICE
+      </h1>
+      <p className="text-center sm:text-left  mb-6 text-lg text-gray-700 font-semibold">
         Last updated Aug 01, 2022
       </p>
 
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         Thank you for choosing to be part of our community at Satta Matka
         ("Company", "we", "us", "our"). We are committed to protecting your
         personal information and your right to privacy. If you have any
@@ -29,7 +31,7 @@ const PrivacyNotice = () => {
         .
       </p>
 
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         When you visit our website{" "}
         <a href="https://dpbossss.services" className="text-blue-500 underline">
           https://dpbossss.services
@@ -46,18 +48,20 @@ const PrivacyNotice = () => {
         Services immediately.
       </p>
 
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         This privacy notice applies to all information collected through our
         Services (which, as described above, includes our Website and App), as
         well as, any related services, sales, marketing or events.
       </p>
 
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         Please read this privacy notice carefully as it will help you understand
         what we do with the information that we collect.
       </p>
 
-      <h2 className="text-xl font-bold mb-2">TABLE OF CONTENTS</h2>
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
+        TABLE OF CONTENTS
+      </h2>
       <ul className="text-sm list-disc ml-6 mb-4">
         <li className="mb-1">1. WHAT INFORMATION DO WE COLLECT?</li>
         <li className="mb-1">2. HOW DO WE USE YOUR INFORMATION?</li>
@@ -83,16 +87,16 @@ const PrivacyNotice = () => {
         </li>
       </ul>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         1. WHAT INFORMATION DO WE COLLECT?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         <strong>Personal information you disclose to us</strong>
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: We collect personal information that you provide to us.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         We collect personal information that you voluntarily provide to us when
         you register on the Services, express an interest in obtaining
         information about us or our products and Services, when you participate
@@ -100,7 +104,7 @@ const PrivacyNotice = () => {
         forums or entering competitions, contests or giveaways) or otherwise
         when you contact us.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         The personal information that we collect depends on the context of your
         interactions with us and the Services, the choices you make and the
         products and features you use. The personal information we collect may
@@ -121,20 +125,20 @@ const PrivacyNotice = () => {
           find their privacy notice link(s) here: __________.
         </li>
       </ul>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         All personal information that you provide to us must be true, complete
         and accurate, and you must notify us of any changes to such personal
         information.
       </p>
 
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         <strong>Information collected through our App</strong>
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: We collect information regarding your geo-location, mobile
         device, push notifications, when you use our App.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         If you use our App, we also collect the following information:
       </p>
       <ul className="text-sm list-disc ml-6 mb-4">
@@ -165,21 +169,21 @@ const PrivacyNotice = () => {
           you may turn them off in your device's settings.
         </li>
       </ul>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         This information is primarily needed to maintain the security and
         operation of our App, for troubleshooting and for our internal analytics
         and reporting purposes.
       </p>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         2. HOW DO WE USE YOUR INFORMATION?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: We process your information for purposes based on legitimate
         business interests, the fulfillment of our contract with you, compliance
         with our legal obligations, and/or your consent.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         We use personal information collected via our Services for a variety of
         business purposes described below. We process your personal information
         for these purposes in reliance on our legitimate business interests, in
@@ -281,15 +285,15 @@ const PrivacyNotice = () => {
         </li>
       </ul>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: We only share information with your consent, to comply with
         laws, to provide you with services, to protect your rights, or to
         fulfill business obligations.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         We may process or share your data that we hold based on the following
         legal basis:
       </p>
@@ -327,7 +331,7 @@ const PrivacyNotice = () => {
         </li>
       </ul>
 
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         More specifically, we may need to process your data or share your
         personal information in the following situations:
       </p>
@@ -366,29 +370,29 @@ const PrivacyNotice = () => {
         </li>
       </ul>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: We may use cookies and other tracking technologies to collect
         and store your information.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         We may use cookies and similar tracking technologies (like web beacons
         and pixels) to access or store information. Specific information about
         how we use such technologies and how you can refuse certain cookies is
         set out in our Cookie Notice.
       </p>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: We are not responsible for the safety of any information that
         you share with third-party providers who advertise, but are not
         affiliated with, our Website.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         The Services may contain advertisements from third parties that are not
         affiliated with us and which may link to other websites, online services
         or mobile applications. We cannot guarantee the safety and privacy of
@@ -401,15 +405,15 @@ const PrivacyNotice = () => {
         questions.
       </p>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         6. HOW LONG DO WE KEEP YOUR INFORMATION?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: We keep your information for as long as necessary to fulfill
         the purposes outlined in this privacy notice unless otherwise required
         by law.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         We will only keep your personal information for as long as it is
         necessary for the purposes set out in this privacy notice, unless a
         longer retention period is required or permitted by law (such as tax,
@@ -417,7 +421,7 @@ const PrivacyNotice = () => {
         require us keeping your personal information for longer than the period
         of time in which users have an account with us.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         When we have no ongoing legitimate business need to process your
         personal information, we will either delete or anonymize such
         information, or, if this is not possible (for example, because your
@@ -426,14 +430,14 @@ const PrivacyNotice = () => {
         processing until deletion is possible.
       </p>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         7. HOW DO WE KEEP YOUR INFORMATION SAFE?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: We aim to protect your personal information through a system
         of organizational and technical security measures.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         We have implemented appropriate technical and organizational security
         measures designed to protect the security of any personal information we
         process. However, despite our safeguards and efforts to secure your
@@ -447,14 +451,14 @@ const PrivacyNotice = () => {
         only access the Services within a secure environment.
       </p>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         8. DO WE COLLECT INFORMATION FROM MINORS?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: We do not knowingly collect data from or market to children
         under 18 years of age.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         We do not knowingly solicit data from or market to children under 18
         years of age. By using the Services, you represent that you are at least
         18 or that you are the parent or guardian of such a minor and consent to
@@ -466,43 +470,45 @@ const PrivacyNotice = () => {
         __________.
       </p>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         9. WHAT ARE YOUR PRIVACY RIGHTS?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: You may review, change, or terminate your account at any time.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         If you are resident in the EEA or UK and you believe we are unlawfully
         processing your personal information, you also have the right to
         complain to your local data protection supervisory authority. You can
         find their contact details here:{" "}
         <a
           href="https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm"
-          className="text-blue-500 underline"
+          className="text-blue-500 flex flex-wrap underline"
         >
           https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm
         </a>
         .
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify overflow-x-auto sm:text-left text-sm mb-4">
         If you are resident in Switzerland, the contact details for the data
         protection authorities are available here:{" "}
         <a
           href="https://www.edoeb.admin.ch/edoeb/en/home.html"
-          className="text-blue-500 underline"
+          className="text-blue-500   flex flex-wrap underline"
         >
-          https://www.edoeb.admin.ch/edoeb/en/home.html
+          {/* https://www.edoeb.admin.ch/edoeb/en/home.html */}
         </a>
         .
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         If you have questions or comments about your privacy rights, you may
         email us at __________.
       </p>
 
-      <h2 className="text-xl font-bold mb-2">Account Information</h2>
-      <p className="text-sm mb-4">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
+        Account Information
+      </h2>
+      <p className="text-justify sm:text-left text-sm mb-4">
         If you would at any time like to review or change the information in
         your account or terminate your account, you can:
       </p>
@@ -514,14 +520,14 @@ const PrivacyNotice = () => {
           Contact us using the contact information provided.
         </li>
       </ul>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         Upon your request to terminate your account, we will deactivate or
         delete your account and information from our active databases. However,
         we may retain some information in our files to prevent fraud,
         troubleshoot problems, assist with any investigations, enforce our Terms
         of Use and/or comply with applicable legal requirements.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         <strong>Cookies and similar technologies:</strong> Most Web browsers are
         set to accept cookies by default. If you prefer, you can usually choose
         to set your browser to remove cookies and to reject cookies. If you
@@ -536,7 +542,7 @@ const PrivacyNotice = () => {
         </a>
         .
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         <strong>Opting out of email marketing:</strong> You can unsubscribe from
         our marketing email list at any time by clicking on the unsubscribe link
         in the emails that we send or by contacting us using the details
@@ -555,10 +561,10 @@ const PrivacyNotice = () => {
         </li>
       </ul>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         10. CONTROLS FOR DO-NOT-TRACK FEATURES
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         Most web browsers and some mobile operating systems and mobile
         applications include a Do-Not-Track ("DNT") feature or setting you can
         activate to signal your privacy preference not to have data about your
@@ -571,14 +577,14 @@ const PrivacyNotice = () => {
         practice in a revised version of this privacy notice.
       </p>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: Yes, if you are a resident of California, you are granted
         specific rights regarding access to your personal information.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         California Civil Code Section 1798.83, also known as the "Shine The
         Light" law, permits our users who are California residents to request
         and obtain from us, once a year and free of charge, information about
@@ -589,7 +595,7 @@ const PrivacyNotice = () => {
         and would like to make such a request, please submit your request in
         writing to us using the contact information provided below.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         If you are under 18 years of age, reside in California, and have a
         registered account with the Services, you have the right to request
         removal of unwanted data that you publicly post on the Services. To
@@ -601,14 +607,14 @@ const PrivacyNotice = () => {
         from all our systems (e.g., backups, etc.).
       </p>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         12. DO WE MAKE UPDATES TO THIS NOTICE?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         In Short: Yes, we will update this notice as necessary to stay compliant
         with relevant laws.
       </p>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         We may update this privacy notice from time to time. The updated version
         will be indicated by an updated "Revised" date and the updated version
         will be effective as soon as it is accessible. If we make material
@@ -618,22 +624,28 @@ const PrivacyNotice = () => {
         to be informed of how we are protecting your information.
       </p>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         If you have questions or comments about this notice, you may email us at
         __________ or by post to:
       </p>
-      <p className="text-sm mb-4">Satta Matka</p>
-      <p className="text-sm mb-4">_______________________</p>
-      <p className="text-sm mb-4">_______________________</p>
-      <p className="text-sm mb-4">_______________________</p>
+      <p className="text-justify sm:text-left text-sm mb-4">Satta Matka</p>
+      <p className="text-justify sm:text-left text-sm mb-4">
+        _______________________
+      </p>
+      <p className="text-justify sm:text-left text-sm mb-4">
+        _______________________
+      </p>
+      <p className="text-justify sm:text-left text-sm mb-4">
+        _______________________
+      </p>
 
-      <h2 className="text-xl font-bold mb-2">
+      <h2 className="text-center sm:text-left text-xl font-bold mb-2">
         14. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
       </h2>
-      <p className="text-sm mb-4">
+      <p className="text-justify sm:text-left text-sm mb-4">
         Based on the applicable laws of your country, you may have the right to
         request access to the personal information we collect from you, change
         that information, or delete it in some circumstances. Go to Top

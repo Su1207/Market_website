@@ -11,11 +11,17 @@ const TermsOfService = () => {
         <h1 className=" text-5xl font-bold text-center font-playwrite pt-2 mb-8">
           Shree Laxmi
         </h1>
-        <h1 className="text-3xl font-bold mb-6">TERMS OF USE</h1>
-        <p className="text-gray-600 mb-6">Last updated Aug 01, 2022</p>
+        <h1 className="text-3xl text-center sm:text-left font-bold mb-6">
+          TERMS OF USE
+        </h1>
+        <p className="text-justify sm:text-left text-gray-600 mb-6">
+          Last updated Aug 01, 2022
+        </p>
 
-        <h2 className="text-2xl font-bold mb-4">AGREEMENT TO TERMS</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-4">
+          AGREEMENT TO TERMS
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           These Terms of Use constitute a legally binding agreement made between
           you, whether personally or on behalf of an entity (you) and Satta
           Matka ("Company", "we", "us”, or "our"), concerning your access to and
@@ -28,7 +34,7 @@ const TermsOfService = () => {
           EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE
           IMMEDIATELY.
         </p>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           Supplemental terms and conditions or documents that may be posted on
           the Site from time to time are hereby expressly incorporated herein by
           reference. We reserve the right, in our sole discretion, to make
@@ -42,7 +48,7 @@ const TermsOfService = () => {
           continued use of the Site after the date such revised Terms of Use are
           posted.
         </p>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           The information provided on the Site is not intended for distribution
           to or use by any person or entity in any jurisdiction or country where
           such distribution or use would be contrary to law or regulation or
@@ -52,15 +58,15 @@ const TermsOfService = () => {
           are solely responsible for compliance with local laws, if and to the
           extent local laws are applicable.
         </p>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           The Site is intended for users who are at least 18 years old. Persons
           under the age of 18 are not permitted to use or register for the Site.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-4">
           INTELLECTUAL PROPERTY RIGHTS
         </h2>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           Unless otherwise indicated, the Site is our proprietary property and
           all source code, databases, functionality, software, website designs,
           audio, video, text, photographs, and graphics on the Site
@@ -77,7 +83,7 @@ const TermsOfService = () => {
           distributed, sold, licensed, or otherwise exploited for any commercial
           purpose whatsoever, without our express prior written permission.
         </p>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           Provided that you are eligible to use the Site, you are granted a
           limited license to access and use the Site and to download or print a
           copy of any portion of the Content to which you have properly gained
@@ -86,8 +92,10 @@ const TermsOfService = () => {
           and the Marks.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">USER REPRESENTATIONS</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-4">
+          USER REPRESENTATIONS
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           By using the Site, you represent and warrant that: (1) all
           registration information you submit will be true, accurate, current,
           and complete; (2) you will maintain the accuracy of such information
@@ -100,15 +108,17 @@ const TermsOfService = () => {
           your use of the Site will not violate any applicable law or
           regulation.
         </p>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           If you provide any information that is untrue, inaccurate, not
           current, or incomplete, we have the right to suspend or terminate your
           account and refuse any and all current or future use of the Site (or
           any portion thereof).
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">USER REGISTRATION</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-4">
+          USER REGISTRATION
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           You may be required to register with the Site. You agree to keep your
           password confidential and will be responsible for all use of your
           account and password. We reserve the right to remove, reclaim, or
@@ -117,14 +127,18 @@ const TermsOfService = () => {
           objectionable.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">PROHIBITED ACTIVITIES</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-4">
+          PROHIBITED ACTIVITIES
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           You may not access or use the Site for any purpose other than that for
           which we make the Site available. The Site may not be used in
           connection with any commercial endeavors except those that are
           specifically endorsed or approved by us.
         </p>
-        <p className="mb-4 text-sm">As a user of the Site, you agree not to:</p>
+        <p className="text-justify sm:text-left mb-4 text-sm">
+          As a user of the Site, you agree not to:
+        </p>
         <ul className=" list-disc list-inside mb-4 text-sm">
           <li>
             Systematically retrieve data or other content from the Site to
@@ -197,10 +211,10 @@ const TermsOfService = () => {
           </li>
         </ul>
 
-        <h2 className="text-2xl font-bold mb-4">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-4">
           USER GENERATED CONTRIBUTIONS
         </h2>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           The Site may invite you to chat, contribute to, or participate in
           blogs, message boards, online forums, and other functionality, and may
           provide you with the opportunity to create, submit, post, display,
@@ -284,14 +298,16 @@ const TermsOfService = () => {
             applicable law or regulation.
           </li>
         </ul>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           Any use of the Site in violation of the foregoing violates these Terms
           of Use and may result in, among other things, termination or
           suspension of your rights to use the Site.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">CONTRIBUTION LICENSE</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-4">
+          CONTRIBUTION LICENSE
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           By posting your Contributions to any part of the Site or making
           Contributions accessible to the Site by linking your account from the
           Site to any of your social networking accounts, you automatically
@@ -308,7 +324,7 @@ const TermsOfService = () => {
           authorize sublicenses of the foregoing. The use and distribution may
           occur in any media formats and through any media channels.
         </p>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           This license will apply to any form, media, or technology now known or
           hereafter developed, and includes our use of your name, company name,
           and franchise name, as applicable, and any of the trademarks, service
@@ -317,7 +333,7 @@ const TermsOfService = () => {
           warrant that moral rights have not otherwise been asserted in your
           Contributions.
         </p>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           We do not assert any ownership over your Contributions. You retain
           full ownership of all of your Contributions and any intellectual
           property rights or other proprietary rights associated with your
@@ -327,7 +343,7 @@ const TermsOfService = () => {
           expressly agree to exonerate us from any and all responsibility and to
           refrain from any legal action against us regarding your Contributions.
         </p>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           We have the right, in our sole and absolute discretion, (1) to edit,
           redact, or otherwise change any Contributions; (2) to re-categorize
           any Contributions to place them in more appropriate locations on the
@@ -336,8 +352,10 @@ const TermsOfService = () => {
           your Contributions.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">GUIDELINES FOR REVIEWS</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-4">
+          GUIDELINES FOR REVIEWS
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           We may provide you areas on the Site to leave reviews or ratings. When
           posting a review, you must comply with the following criteria: (1) you
           should have firsthand experience with the person/entity being
@@ -352,7 +370,7 @@ const TermsOfService = () => {
           statements; and (8) you may not organize a campaign encouraging others
           to post reviews, whether positive or negative.
         </p>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           We may accept, reject, or remove reviews in our sole discretion. We
           have absolutely no obligation to screen reviews or to delete reviews,
           even if anyone considers reviews objectionable or inaccurate. Reviews
@@ -366,9 +384,11 @@ const TermsOfService = () => {
           all content relating to reviews.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4">MOBILE APPLICATION LICENSE</h2>
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-4">
+          MOBILE APPLICATION LICENSE
+        </h2>
         <h3 className="text-xl font-semibold mb-2">Use License</h3>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           If you access the Site via a mobile application, then we grant you a
           revocable, non-exclusive, non-transferable, limited right to install
           and use the mobile application on wireless electronic devices owned or
@@ -400,7 +420,7 @@ const TermsOfService = () => {
         <h3 className="text-xl font-semibold mb-2">
           Apple and Android Devices
         </h3>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           The following terms apply when you use a mobile application obtained
           from either the Apple Store or Google Play (each an App Distributor)
           to access the Site: (1) the license granted to you for our mobile
@@ -439,8 +459,10 @@ const TermsOfService = () => {
         </p>
 
         {/* SUBMISSIONS */}
-        <h2 className="text-2xl font-bold mb-2">Submissions</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Submissions
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           You acknowledge and agree that any questions, comments, suggestions,
           ideas, feedback, or other information regarding the Site
           ("Submissions") provided by you to us are non-confidential and shall
@@ -457,8 +479,10 @@ const TermsOfService = () => {
         </p>
 
         {/* ADVERTISERS */}
-        <h2 className="text-2xl font-bold mb-2">Advertisers</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Advertisers
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           We allow advertisers to display their advertisements and other
           information in certain areas of the Site, such as sidebar
           advertisements or banner advertisements. If you are an advertiser, you
@@ -473,8 +497,10 @@ const TermsOfService = () => {
         </p>
 
         {/* SITE MANAGEMENT */}
-        <h2 className="text-2xl font-bold mb-2">Site Management</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Site Management
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           We reserve the right, but not the obligation, to: (1) monitor the Site
           for violations of these Terms of Use; (2) take appropriate legal
           action against anyone who, in our sole discretion, violates the law or
@@ -491,8 +517,10 @@ const TermsOfService = () => {
         </p>
 
         {/* PRIVACY POLICY */}
-        <h2 className="text-2xl font-bold mb-2">Privacy Policy</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Privacy Policy
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           We care about data privacy and security. Please review our Privacy
           Policy:{" "}
           <a
@@ -512,8 +540,10 @@ const TermsOfService = () => {
         </p>
 
         {/* COPYRIGHT INFRINGEMENTS */}
-        <h2 className="text-2xl font-bold mb-2">Copyright Infringements</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Copyright Infringements
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           We respect the intellectual property rights of others. If you believe
           that any material available on or through the Site infringes upon any
           copyright you own or control, please immediately notify us using the
@@ -527,8 +557,10 @@ const TermsOfService = () => {
         </p>
 
         {/* TERM AND TERMINATION */}
-        <h2 className="text-2xl font-bold mb-2">Term and Termination</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Term and Termination
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           These Terms of Use shall remain in full force and effect while you use
           the Site. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS OF USE,
           WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR
@@ -543,10 +575,10 @@ const TermsOfService = () => {
         </p>
 
         {/* MODIFICATIONS AND INTERRUPTIONS */}
-        <h2 className="text-2xl font-bold mb-2">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
           Modifications and Interruptions
         </h2>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           We reserve the right to change, modify, or remove the contents of the
           Site at any time or for any reason at our sole discretion without
           notice. However, we have no obligation to update any information on
@@ -562,8 +594,10 @@ const TermsOfService = () => {
         </p>
 
         {/* GOVERNING LAW */}
-        <h2 className="text-2xl font-bold mb-2">Governing Law</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Governing Law
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           These Terms shall be governed by and defined following the laws of
           India. Satta Matka and yourself irrevocably consent that the courts of
           India shall have exclusive jurisdiction to resolve any dispute which
@@ -571,12 +605,14 @@ const TermsOfService = () => {
         </p>
 
         {/* DISPUTE RESOLUTION */}
-        <h2 className="text-2xl font-bold mb-2">Dispute Resolution</h2>
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Dispute Resolution
+        </h2>
 
         {/* Binding Arbitration */}
         <div className="mb-4">
           <h3 className="text-lg font-semibold mb-2">Binding Arbitration</h3>
-          <p className="mb-2">
+          <p className="text-justify sm:text-left mb-2">
             Any dispute arising out of or in connection with this contract,
             including any question regarding its existence, validity or
             termination, shall be referred to and finally resolved by the
@@ -585,7 +621,7 @@ const TermsOfService = () => {
             according to the Rules of this ICAC, which, as a result of referring
             to it, is considered as the part of this clause.
           </p>
-          <p className="mb-2">
+          <p className="text-justify sm:text-left mb-2">
             The number of arbitrators shall be determined by mutual agreement of
             the parties. The seat, or legal place, of arbitration shall be
             agreed upon by the parties. The language of the proceedings shall be
@@ -598,7 +634,7 @@ const TermsOfService = () => {
         {/* Restrictions */}
         <div className="mb-4">
           <h3 className="text-lg font-semibold mb-2">Restrictions</h3>
-          <p className="mb-2">
+          <p className="text-justify sm:text-left mb-2">
             The Parties agree that any arbitration shall be limited to the
             Dispute between the Parties individually. To the full extent
             permitted by law, (a) no arbitration shall be joined with any other
@@ -615,7 +651,7 @@ const TermsOfService = () => {
           <h3 className="text-lg font-semibold mb-2">
             Exceptions to Arbitration
           </h3>
-          <p className="mb-2">
+          <p className="text-justify sm:text-left mb-2">
             The Parties agree that the following Disputes are not subject to the
             above provisions concerning binding arbitration: (a) any Disputes
             seeking to enforce or protect, or concerning the validity of, any of
@@ -632,8 +668,10 @@ const TermsOfService = () => {
           </p>
         </div>
 
-        <h2 className="text-2xl font-bold mb-2">CORRECTIONS</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          CORRECTIONS
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           There may be information on the Site that contains typographical
           errors, inaccuracies, or omissions, including descriptions, pricing,
           availability, and various other information. We reserve the right to
@@ -642,8 +680,10 @@ const TermsOfService = () => {
         </p>
 
         {/* DISCLAIMER */}
-        <h2 className="text-2xl font-bold mb-2">Disclaimer</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Disclaimer
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE
           THAT YOUR USE OF THE SITE AND OUR SERVICES WILL BE AT YOUR SOLE RISK.
           TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES,
@@ -676,8 +716,10 @@ const TermsOfService = () => {
         </p>
 
         {/* LIMITATIONS OF LIABILITY */}
-        <h2 className="text-2xl font-bold mb-2">Limitations of Liability</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Limitations of Liability
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE
           TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL,
           EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST
@@ -687,8 +729,10 @@ const TermsOfService = () => {
         </p>
 
         {/* INDEMNIFICATION */}
-        <h2 className="text-2xl font-bold mb-2">Indemnification</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Indemnification
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           You agree to defend, indemnify, and hold us harmless, including our
           subsidiaries, affiliates, and all of our respective officers, agents,
           partners, and employees, from and against any loss, damage, liability,
@@ -709,8 +753,10 @@ const TermsOfService = () => {
         </p>
 
         {/* USER DATA */}
-        <h2 className="text-2xl font-bold mb-2">User Data</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          User Data
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           We will maintain certain data that you transmit to the Site for the
           purpose of managing the performance of the Site, as well as data
           relating to your use of the Site. Although we perform regular routine
@@ -722,10 +768,10 @@ const TermsOfService = () => {
         </p>
 
         {/* ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES */}
-        <h2 className="text-2xl font-bold mb-2">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
           Electronic Communications, Transactions, and Signatures
         </h2>
-        <p className="mb-4 text-sm">
+        <p className="text-justify sm:text-left mb-4 text-sm">
           Visiting the Site, sending us emails, and completing online forms
           constitute electronic communications. You consent to receive
           electronic communications, and you agree that all agreements, notices,
@@ -743,8 +789,10 @@ const TermsOfService = () => {
         </p>
 
         {/* MISCELLANEOUS */}
-        <h2 className="text-2xl font-bold mb-2">Miscellaneous</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Miscellaneous
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           These Terms of Use and any policies or operating rules posted by us on
           the Site or in respect to the Site constitute the entire agreement and
           understanding between you and us. Our failure to exercise or enforce
@@ -768,8 +816,10 @@ const TermsOfService = () => {
         </p>
 
         {/* CONTACT US */}
-        <h2 className="text-2xl font-bold mb-2">Contact Us</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-center sm:text-left text-2xl font-bold mb-2">
+          Contact Us
+        </h2>
+        <p className="text-justify sm:text-left mb-4 text-sm">
           In order to resolve a complaint regarding the Site or to receive
           further information regarding use of the Site, please contact us at:
           <br />

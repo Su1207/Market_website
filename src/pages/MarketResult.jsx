@@ -168,7 +168,7 @@ const MarketResult = () => {
                     Jodi
                   </div>
                   <div className="flex xs:flex-row flex-col gap-2 xs:gap-0 justify-center items-center xs:justify-between p-5 xs:px-8 py-8">
-                    <h3 className=" text-base xs:text-xl sm:text-2xl font-bold">
+                    <h3 className=" text-base text-center xs:text-xl sm:text-2xl font-bold">
                       {data.NAME}
                     </h3>
                     <p className="text-sm sm:text-xl font-semibold">
