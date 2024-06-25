@@ -49,9 +49,12 @@ const Footer = () => {
               About us
             </Link>
             <div className=" border h-3 mt-1 w-0"></div>
-            <div className=" cursor-pointer hover:text-blue-500 transition-all duration-300 ease-out">
+            <Link
+              to={"/contact"}
+              className=" cursor-pointer hover:text-blue-500 transition-all duration-300 ease-out"
+            >
               Contact us
-            </div>
+            </Link>
           </div>
           <div className=" flex items-center gap-2">
             <Link
