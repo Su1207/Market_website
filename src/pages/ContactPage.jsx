@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import OtherPageFooter from "../components/OtherPageFooter";
 
 const ContactPage = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <div className=" w-full bg-blue-50 min-h-screen font-poppins ">
       <div className=" text-4xl font-bold font-playwrite text-center px-4 py-8">
