@@ -1,0 +1,25 @@
+.lucky-number-container {
+  height: 150px; /* Adjust the height as needed */
+  overflow: hidden;
+  position: relative;
+}
+
+/* Define animation for scrolling */
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+/* Apply animation and styles */
+.scroll-animation {
+  animation: scroll 20s linear infinite; /* Adjust animation duration (10s) as needed */
+}
+
+/* Pause animation on hover */
+.scroll-animation:hover {
+  animation-play-state: paused;
+}

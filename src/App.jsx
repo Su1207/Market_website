@@ -6,8 +6,11 @@ import About from "./pages/About";
 import PrivacyNotice from "./pages/PrivacyNotice";
 import TermsOfService from "./pages/TermsOfService";
 import ContactPage from "./pages/ContactPage";
+import clearMarket from "./components/clearMarket";
 
 function App() {
+  clearMarket();
+
   return (
     <>
       <Routes>

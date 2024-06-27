@@ -7,6 +7,7 @@ import Welcome from "../components/Welcome";
 import Footer from "../components/Footer";
 import MarketList from "../components/MarketList";
 import MarketTracker from "../components/MarketTracker";
+import LuckyNumber from "../components/LuckyNumber";
 
 const formatResult = (open, mid, close) => {
   return `${open}-${mid}-${close}`;
@@ -54,10 +55,10 @@ const MarketResult = () => {
               .child(day)
               .val();
             const name = gameSnapshot.child("NAME").val();
-            const app = gameSnapshot.child("APP").val();
             const color = gameSnapshot.child("COLOR").val();
             const open = gameSnapshot.child("OPEN").val();
             const close = gameSnapshot.child("CLOSE").val();
+            const lucky_no = gameSnapshot.child("LUCKY_NO").val();
 
             const resultString = resultData
               ? formatResult(resultData.OPEN, resultData.MID, resultData.CLOSE)
@@ -69,8 +70,8 @@ const MarketResult = () => {
               RESULT: resultString,
               OPEN: open,
               CLOSE: close,
-              APP: app,
               COLOR: color,
+              LUCKY_NO: lucky_no,
             });
           });
           setResult(combinedData);
@@ -106,7 +107,7 @@ const MarketResult = () => {
   };
 
   return (
-    <div className="relative w-full bg-orange-200">
+    <div className="relative w-full font-poppins bg-orange-200">
       <div className="fixed bottom-2 border-2 border-gray-300 left-3 bg-blue-800 text-white cursor-pointer hover:bg-black transition-all duration-300 ease-out font-semibold py-2 px-3 text-sm rounded-md">
         Matka Play
       </div>
@@ -118,7 +119,30 @@ const MarketResult = () => {
       </div>
       <Welcome />
 
+      <LuckyNumber result={result} />
+
       <MarketTracker />
+
+      <div className=" my-8">
+        <div className="text-xl sm:text-3xl font-playwrite uppercase font-bold text-center">
+          NOTICE
+        </div>
+        <p className=" text-base leading-7 mx-4 bg-red-600 text-gray-200 font-semibold text-center mt-4 p-4 border border-red-500 rounded-md shadow-lg">
+          अपना बाजार shreelaxmi.services वेबसाइट में डलवाने
+          <br /> के लिए आज ही हमें ईमेल करे
+          <br />{" "}
+          <span className=" text-blue-950">Email : support@shreelaxmi.net</span>
+          <br /> शर्ते लागु
+        </p>
+
+        <p className=" text-sm font-semibold text-blue-950 mx-4 text-center mt-4 p-4 border-2 border-red-500 rounded-md shadow-lg">
+          KALYAN MATKA | MATKA RESULT | KALYAN MATKA TIPS | SATTA MATKA |
+          MATKA.COM | MATKA PANA JODI TODAY | BATTA SATKA | MATKA PATTI JODI
+          NUMBER | MATKA RESULTS | MATKA CHART | MATKA JODI | SATTA COM | FULL
+          RATE GAME | MATKA GAME | MATKA WAPKA | ALL MATKA RESULT LIVE ONLINE |
+          MATKA RESULT | KALYAN MATKA RESULT | DPBOSS MATKA 143 | MAIN MATKA
+        </p>
+      </div>
 
       <div className="text-xl sm:text-3xl font-playwrite uppercase font-bold text-center my-8">
         Fastest Market Result
@@ -167,16 +191,20 @@ const MarketResult = () => {
                   >
                     Jodi
                   </div>
-                  <div className="flex xs:flex-row flex-col gap-2 xs:gap-0 justify-center items-center xs:justify-between p-5 xs:px-8 py-8">
+                  <div className="flex flex-col gap-2 justify-center items-center xs:justify-between p-5 xs:px-8 py-8">
                     <h3 className=" text-base text-center xs:text-xl sm:text-2xl font-bold">
                       {data.NAME}
                     </h3>
                     <p className="text-sm sm:text-xl font-semibold">
                       {data.RESULT}
                     </p>
-                    <div className=" flex items-center text-sm sm:text-base font-semibold gap-2 sm:gap-5">
-                      <div>{convertToTime(data.OPEN)}</div>
-                      <div>{convertToTime(data.CLOSE)}</div>
+                    <div className=" flex items-center justify-center text-sm sm:text-base font-semibold gap-2 sm:gap-5">
+                      <div className=" text-center">
+                        {convertToTime(data.OPEN)}
+                      </div>
+                      <div className=" text-center">
+                        {convertToTime(data.CLOSE)}
+                      </div>
                     </div>
                   </div>
                   <div

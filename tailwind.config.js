@@ -7,6 +7,9 @@ export default {
         playwrite: ['"Playwrite AU TAS"', "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
+      screens: {
+        xs: "400px",
+      },
     },
   },
   plugins: [],
