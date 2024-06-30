@@ -1,7 +1,7 @@
 import { get, onValue, ref } from "firebase/database";
 import React, { useEffect, useState } from "react";
 import { database } from "../firebase";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Introduction from "../components/Introduction";
 import Welcome from "../components/Welcome";
 import Footer from "../components/Footer";
@@ -219,6 +219,86 @@ const MarketResult = () => {
             ))}
         </div>
       )}
+
+      <div className=" px-4 mb-2">
+        <div className=" bg-pink-500 border-2 border-gray-100 shadow-lg text-center text-white mb-1 rounded-xl py-2 font-playwrite font-bold">
+          EverGreen Trick Zone And Matka Tricks By DpBoss
+        </div>
+        <div className="container border-2 border-blue-900 rounded-md">
+          <div className="red-container text-center py-2">
+            <h1 className="text-white font-bold">Dpboss Special Game Zone</h1>
+          </div>
+          <div className="content py-2 flex flex-col  text-center text-purple-700 font-semibold">
+            <Link className="py-2 border-t border-red-600">
+              Dpboss Guessing Forum (Post)
+            </Link>
+            <Link
+              to={"/matka-free-open"}
+              className="py-2 border-t border-red-600"
+            >
+              All market free fix game
+            </Link>
+            <Link
+              to={"/khatris-favourite-panna-chart"}
+              className="py-2 border-t border-red-600"
+            >
+              Ratan Khatri Fix Panel Chart
+            </Link>
+            <Link
+              to={"/matka-final-number-chart"}
+              className="py-2 border-t border-red-600"
+            >
+              Matka Final Number Trick Chart
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className=" px-4">
+        <div className="container border-2 border-blue-900 rounded-md">
+          <div className="red-container text-center py-2">
+            <h1 className="text-white font-bold">Matka Jodi List</h1>
+          </div>
+          <div className="content py-2 flex flex-col text-center text-purple-700 font-semibold">
+            <Link
+              to={"/matka-jodi-count-chart"}
+              className="py-2 border-t border-red-600"
+            >
+              Matka Jodi Count Chart
+            </Link>
+            <Link
+              to={"/fix-open-to-close-by-date"}
+              className="py-2 border-t border-red-600"
+            >
+              Dhanvarsha Daily Fix Open To Close
+            </Link>
+            <Link
+              to={"/matka-jodi-family-chart"}
+              className="py-2 border-t border-red-600"
+            >
+              Matka Jodi Family Chart
+            </Link>
+            <Link
+              to={"/panel-count-chart"}
+              className="py-2 border-t border-red-600"
+            >
+              Panel Count Chart
+            </Link>
+            <Link
+              to={"/panel-total-chart"}
+              className="py-2 border-t border-red-600"
+            >
+              Panel Total Chart
+            </Link>
+            <Link
+              to={"/All-22-Card-Panna-Penal-Patti-Chart"}
+              className="py-2 border-t border-red-600"
+            >
+              All 220 Card List
+            </Link>
+          </div>
+        </div>
+      </div>
 
       <MarketList result={result} />
 

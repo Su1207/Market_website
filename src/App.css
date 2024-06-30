@@ -23,3 +23,9 @@
 .scroll-animation:hover {
   animation-play-state: paused;
 }
+
+.red-container {
+  background: linear-gradient(to bottom, #ff0000, #d00000);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 95% 100%, 5% 100%, 0% 80%);
+  /* border: 2px solid #00008b; */
+}
