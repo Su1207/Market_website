@@ -1,9 +1,31 @@
-import React, { useEffect } from "react";
+import { onValue, ref } from "firebase/database";
+import React, { useEffect, useState } from "react";
+import { database } from "../firebase";
 
 const GuessingForum = () => {
+  const [url, setUrl] = useState("");
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
+
+  useEffect(() => {
+    const urlRef = ref(database, "ADMIN/AUTH/URL");
+    const unsub = onValue(urlRef, (snapshot) => {
+      if (snapshot.exists()) {
+        setUrl(snapshot.val());
+      }
+    });
+
+    return () => unsub();
+  }, []);
+
+  const handleUrl = () => {
+    if (url) {
+      window.location.href = url;
+    }
+  };
+
   return (
     <div className="py-4 font-poppins bg-orange-300 min-h-screen">
       <h1 className=" text-4xl font-bold text-center font-playwrite pt-4 pb-8">
@@ -28,7 +50,10 @@ const GuessingForum = () => {
           Application Download Kare
         </p>
 
-        <button className=" bg-black border-2 rounded-md mt-4 px-3 py-2 text-sm text-white">
+        <button
+          onClick={handleUrl}
+          className=" bg-black border-2 rounded-md mt-4 px-3 py-2 text-sm text-white"
+        >
           Click Here to Download App
         </button>
       </div>

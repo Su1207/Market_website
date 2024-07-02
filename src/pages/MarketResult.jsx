@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 import MarketList from "../components/MarketList";
 import MarketTracker from "../components/MarketTracker";
 import LuckyNumber from "../components/LuckyNumber";
-import AnimatedText from "../components/AnimatedText";
+// import AnimatedText from "../components/AnimatedText";
 
 const formatResult = (open, mid, close) => {
   return `${open}-${mid}-${close}`;
@@ -39,6 +39,7 @@ const getTimeStampFromDateAndTime = (timeString) => {
 const MarketResult = () => {
   const [result, setResult] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [url, setUrl] = useState("");
 
   const currentDate = new Date();
   const year = currentDate.getFullYear().toString();
@@ -59,6 +60,7 @@ const MarketResult = () => {
 
   useEffect(() => {
     const resultsRef = ref(database, "WEBSITE GAMES");
+    const urlRef = ref(database, "ADMIN/AUTH/URL");
 
     const fetchGameData = async () => {
       try {
@@ -127,8 +129,15 @@ const MarketResult = () => {
       fetchGameData(); // Fetch game data whenever result data changes
     });
 
+    const unsub = onValue(urlRef, (snapshot) => {
+      if (snapshot.exists()) {
+        setUrl(snapshot.val());
+      }
+    });
+
     return () => {
       unsubscribeResults();
+      unsub();
     };
   }, [day]);
 
@@ -142,13 +151,23 @@ const MarketResult = () => {
     navigate(`jodiChartRecord/${gameKey}`);
   };
 
+  const handleUrl = () => {
+    if (url) {
+      // Ensure the URL starts with '/' to navigate from the root
+      window.location.href = url;
+    }
+  };
+
   const handleReload = () => {
     window.location.reload();
   };
 
   return (
     <div className="relative w-full font-poppins bg-orange-200">
-      <div className="fixed bottom-2 border-2 border-gray-300 left-3 bg-blue-800 text-white cursor-pointer hover:bg-black transition-all duration-300 ease-out font-semibold py-2 px-3 text-sm rounded-md">
+      <div
+        onClick={handleUrl}
+        className="fixed bottom-2 border-2 border-gray-300 left-3 bg-blue-800 text-white cursor-pointer hover:bg-black transition-all duration-300 ease-out font-semibold py-2 px-3 text-sm rounded-md"
+      >
         Matka Play
       </div>
       <div
@@ -170,7 +189,10 @@ const MarketResult = () => {
             करो
           </p>
           <div className="flex items-center justify-center">
-            <button className=" px-4 py-1 bg-blue-900 text-white border-2 flex items-center gap-1 justify-center rounded-full shadow-lg">
+            <button
+              onClick={handleUrl}
+              className=" px-4 py-1 bg-blue-900 text-white border-2 flex items-center gap-1 justify-center rounded-full shadow-lg"
+            >
               <img src="/direction.png" alt="" className="h-8" />
               Play Matka Online
             </button>
