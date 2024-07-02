@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import MarketList from "../components/MarketList";
 import MarketTracker from "../components/MarketTracker";
 import LuckyNumber from "../components/LuckyNumber";
+import AnimatedText from "../components/AnimatedText";
 
 const formatResult = (open, mid, close) => {
   return `${open}-${mid}-${close}`;
@@ -106,6 +107,8 @@ const MarketResult = () => {
     window.location.reload();
   };
 
+  const text = "Sample Text";
+
   return (
     <div className="relative w-full font-poppins bg-orange-200">
       <div className="fixed bottom-2 border-2 border-gray-300 left-3 bg-blue-800 text-white cursor-pointer hover:bg-black transition-all duration-300 ease-out font-semibold py-2 px-3 text-sm rounded-md">
@@ -124,10 +127,24 @@ const MarketResult = () => {
       <MarketTracker />
 
       <div className=" my-8">
-        <div className="text-xl sm:text-3xl font-playwrite uppercase font-bold text-center">
+        <p className=" text-base leading-7 mx-4 bg-red-600 text-gray-200 font-semibold text-center mt-2 p-4 border border-red-500 rounded-md shadow-lg">
+          <p>
+            अब सभी मटका बाजार खेलो ऑनलाइन ऐप पर रोज खेलो रोज कमाओ अभी डाउनलोड
+            करो
+          </p>
+          <div className="flex items-center justify-center">
+            <button className=" px-4 py-1 bg-blue-900 text-white border-2 flex items-center gap-1 justify-center rounded-full shadow-lg">
+              <img src="/direction.png" alt="" className="h-8" />
+              Play Matka Online
+            </button>
+          </div>
+          <p>With 100% Trusted App - Special Offer - Instant Withdraw</p>
+        </p>
+
+        <div className="text-xl mt-4 sm:text-3xl font-playwrite uppercase font-bold text-center">
           NOTICE
         </div>
-        <p className=" text-base leading-7 mx-4 bg-red-600 text-gray-200 font-semibold text-center mt-4 p-4 border border-red-500 rounded-md shadow-lg">
+        <p className=" text-base leading-7 mx-4 bg-red-600 text-gray-200 font-semibold text-center mt-2 p-4 border border-red-500 rounded-md shadow-lg">
           अपना बाजार shreelaxmi.services वेबसाइट में डलवाने
           <br /> के लिए आज ही हमें ईमेल करे
           <br />{" "}
@@ -195,7 +212,11 @@ const MarketResult = () => {
                     <h3 className=" text-base text-center xs:text-xl sm:text-2xl font-bold">
                       {data.NAME}
                     </h3>
-                    <p className="text-sm sm:text-xl font-semibold">
+                    <p
+                      className={`text-sm sm:text-xl font-semibold ${
+                        data.RESULT !== "✦✦✦-✦✦-✦✦✦" ? "animate-bounce" : ""
+                      }`}
+                    >
                       {data.RESULT}
                     </p>
                     <div className=" flex items-center justify-center text-sm sm:text-base font-semibold gap-2 sm:gap-5">
@@ -220,6 +241,15 @@ const MarketResult = () => {
         </div>
       )}
 
+      <div className="px-4 mb-2">
+        <div className=" bg-gray-100 border-2 border-red-500 shadow-lg text-center mb-1 rounded-xl py-2 text-xl  font-bold">
+          Contact for any inquiries Or Support:{" "}
+          <span className="py-1 px-5 shadow-lg text-blue-950 bg-orange-400 rounded-full">
+            +91-8888888888
+          </span>
+        </div>
+      </div>
+
       <div className=" px-4 mb-2">
         <div className=" bg-pink-500 border-2 border-gray-100 shadow-lg text-center text-white mb-1 rounded-xl py-2 font-playwrite font-bold">
           EverGreen Trick Zone And Matka Tricks By DpBoss
@@ -228,27 +258,62 @@ const MarketResult = () => {
           <div className="red-container text-center py-2">
             <h1 className="text-white font-bold">Dpboss Special Game Zone</h1>
           </div>
-          <div className="content py-2 flex flex-col  text-center text-purple-700 font-semibold">
-            <Link className="py-2 border-t border-red-600">
-              Dpboss Guessing Forum (Post)
+          <div className="content py-2 text-xl flex flex-col  text-center text-purple-700 font-semibold">
+            <Link
+              to={"/guessing-forum"}
+              className="py-2 border-t border-red-600"
+            >
+              {["Dpboss Guessing Forum (Post)"].map((char, index) => (
+                <span
+                  key={index}
+                  className="animate-colorChange inline-block"
+                  style={{ animationDelay: `${index * 0.2}s` }}
+                >
+                  {char}
+                </span>
+              ))}
             </Link>
             <Link
               to={"/matka-free-open"}
               className="py-2 border-t border-red-600"
             >
-              All market free fix game
+              {["All market free fix game"].map((char, index) => (
+                <span
+                  key={index}
+                  className="animate-colorChange inline-block"
+                  style={{ animationDelay: `${index * 0.2}s` }}
+                >
+                  {char}
+                </span>
+              ))}
             </Link>
             <Link
               to={"/khatris-favourite-panna-chart"}
               className="py-2 border-t border-red-600"
             >
-              Ratan Khatri Fix Panel Chart
+              {["Ratan Khatri Fix Panel Chart"].map((char, index) => (
+                <span
+                  key={index}
+                  className="animate-colorChange inline-block"
+                  style={{ animationDelay: `${index * 0.2}s` }}
+                >
+                  {char}
+                </span>
+              ))}
             </Link>
             <Link
               to={"/matka-final-number-chart"}
               className="py-2 border-t border-red-600"
             >
-              Matka Final Number Trick Chart
+              {["Matka Final Number Trick Chart"].map((char, index) => (
+                <span
+                  key={index}
+                  className="animate-colorChange inline-block"
+                  style={{ animationDelay: `${index * 0.2}s` }}
+                >
+                  {char}
+                </span>
+              ))}
             </Link>
           </div>
         </div>
@@ -259,42 +324,90 @@ const MarketResult = () => {
           <div className="red-container text-center py-2">
             <h1 className="text-white font-bold">Matka Jodi List</h1>
           </div>
-          <div className="content py-2 flex flex-col text-center text-purple-700 font-semibold">
+          <div className="content py-2 text-xl flex flex-col text-center text-purple-700 font-semibold">
             <Link
               to={"/matka-jodi-count-chart"}
               className="py-2 border-t border-red-600"
             >
-              Matka Jodi Count Chart
+              {["Matka Jodi Count Chart"].map((char, index) => (
+                <span
+                  key={index}
+                  className="animate-colorChange inline-block"
+                  style={{ animationDelay: `${index * 0.2}s` }}
+                >
+                  {char}
+                </span>
+              ))}
             </Link>
             <Link
               to={"/fix-open-to-close-by-date"}
               className="py-2 border-t border-red-600"
             >
-              Dhanvarsha Daily Fix Open To Close
+              {["Dhanvarsha Daily Fix Open To Close"].map((char, index) => (
+                <span
+                  key={index}
+                  className="animate-colorChange inline-block"
+                  style={{ animationDelay: `${index * 0.2}s` }}
+                >
+                  {char}
+                </span>
+              ))}
             </Link>
             <Link
               to={"/matka-jodi-family-chart"}
               className="py-2 border-t border-red-600"
             >
-              Matka Jodi Family Chart
+              {["Matka Jodi Family Chart"].map((char, index) => (
+                <span
+                  key={index}
+                  className="animate-colorChange inline-block"
+                  style={{ animationDelay: `${index * 0.2}s` }}
+                >
+                  {char}
+                </span>
+              ))}
             </Link>
             <Link
               to={"/panel-count-chart"}
               className="py-2 border-t border-red-600"
             >
-              Panel Count Chart
+              {["Panel Count Chart"].map((char, index) => (
+                <span
+                  key={index}
+                  className="animate-colorChange inline-block"
+                  style={{ animationDelay: `${index * 0.2}s` }}
+                >
+                  {char}
+                </span>
+              ))}
             </Link>
             <Link
               to={"/panel-total-chart"}
               className="py-2 border-t border-red-600"
             >
-              Panel Total Chart
+              {["Panel Total Chart"].map((char, index) => (
+                <span
+                  key={index}
+                  className="animate-colorChange inline-block"
+                  style={{ animationDelay: `${index * 0.2}s` }}
+                >
+                  {char}
+                </span>
+              ))}
             </Link>
             <Link
               to={"/All-22-Card-Panna-Penal-Patti-Chart"}
               className="py-2 border-t border-red-600"
             >
-              All 220 Card List
+              {["All 220 Card List"].map((char, index) => (
+                <span
+                  key={index}
+                  className="animate-colorChange inline-block"
+                  style={{ animationDelay: `${index * 0.2}s` }}
+                >
+                  {char}
+                </span>
+              ))}
             </Link>
           </div>
         </div>

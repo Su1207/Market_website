@@ -38,7 +38,7 @@ const LuckyNumber = ({ result }) => {
       <div className=" font-playwrite text-3xl font-bold text-center">
         TODAY LUCKY NUMBER
       </div>
-      <div className=" h-[10rem] flex gap-4 mt-4 border border-red-500 p-4 rounded-md shadow-lg bg-yellow-400">
+      <div className=" h-[8rem] flex gap-4 mt-4 border border-red-500 p-4 rounded-md shadow-lg bg-yellow-400">
         <div className=" flex-1 text-center">
           <div className=" font-playwrite font-bold text-lg xs:text-xl mb-5">
             Golden Ank

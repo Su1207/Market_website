@@ -10,6 +10,16 @@ export default {
       screens: {
         xs: "400px",
       },
+      keyframes: {
+        colorChange: {
+          "0%": { color: "red" },
+          "50%": { color: "purple" },
+          "100%": { color: "orange" },
+        },
+      },
+      animation: {
+        colorChange: "colorChange 2s ease-in-out infinite",
+      },
     },
   },
   plugins: [],

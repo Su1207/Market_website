@@ -5,6 +5,8 @@ const AllCard = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
+
+  
   const datas = [
     { count: "1", numbers: ["128 137 236 678", "245 290 470 579"] },
     { count: "2", numbers: ["129 147 246 679", "345 390 480 589"] },

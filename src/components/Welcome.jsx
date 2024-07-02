@@ -2,7 +2,7 @@ import React from "react";
 
 const Welcome = () => {
   return (
-    <div className=" px-4">
+    <div className=" px-4 ">
       <h1 className=" text-4xl font-bold text-center font-playwrite py-8">
         Shree Laxmi
       </h1>

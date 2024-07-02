@@ -79,6 +79,13 @@ const ContactPage = () => {
         <div className=" md:flex-1">
           <div className=" flex items-center text-sm gap-16">
             <div className=" flex items-center gap-2">
+              <img src="/phone.png" alt="" className=" h-5" />
+              <p>Phone</p>
+            </div>
+            <a className="hover:underline">+91-8888888888</a>
+          </div>
+          <div className=" flex items-center text-sm gap-16">
+            <div className=" flex items-center gap-2">
               <img src="/email.png" alt="" className=" h-4" />
               <p>Email</p>
             </div>

@@ -16,6 +16,7 @@ import MatkaJodiFamilyChart from "./pages/MatkaJodiFamilyChart";
 import PanelCountChart from "./pages/PanelCountChart";
 import PanelTotalChart from "./pages/PanelTotalChart";
 import AllCard from "./pages/AllCard";
+import GuessingForum from "./pages/GuessingForum";
 
 function App() {
   clearMarket();
@@ -30,6 +31,8 @@ function App() {
         <Route path="/privacy" element={<PrivacyNotice />} />
         <Route path="/termsOfService" element={<TermsOfService />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/guessing-forum" element={<GuessingForum />} />
+
         <Route path="/matka-free-open" element={<FreeFixGamePage />} />
         <Route
           path="/khatris-favourite-panna-chart"

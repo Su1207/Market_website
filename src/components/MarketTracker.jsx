@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { onValue, ref } from "firebase/database";
 import { database } from "../firebase"; // Adjust the import based on your firebase configuration file
+import LoadingDots from "./LoadingDots";
 
 const openResultString = (resultData) => {
   return `${resultData.OPEN}-${resultData.MID[0]}`;
@@ -288,10 +289,15 @@ const MarketTracker = () => {
                 <div className=" text-lg sm:text-2xl font-bold text-blue-950">
                   {market.NAME}
                 </div>
-                <div className=" font-semibold text-base sm:text-lg text-green-700 animate-pulse">
-                  {currentResults[market.gameKey]
-                    ? currentResults[market.gameKey]
-                    : "Loading..."}
+                <div className=" font-semibold text-base sm:text-lg text-green-700">
+                  {currentResults[market.gameKey] ? (
+                    currentResults[market.gameKey]
+                  ) : (
+                    <div className=" flex items-end gap-1">
+                      Loading
+                      <LoadingDots />
+                    </div>
+                  )}
                 </div>
               </li>
             ))}
@@ -302,10 +308,15 @@ const MarketTracker = () => {
                 <div className=" text-lg sm:text-2xl font-bold text-blue-950">
                   {market.NAME}
                 </div>
-                <div className=" font-semibold text-base sm:text-lg text-green-700 animate-pulse">
-                  {currentResults[market.gameKey]
-                    ? currentResults[market.gameKey]
-                    : "Loading..."}
+                <div className=" font-semibold text-base sm:text-lg text-green-700 ">
+                  {currentResults[market.gameKey] ? (
+                    currentResults[market.gameKey]
+                  ) : (
+                    <div className=" flex items-end gap-1">
+                      Loading
+                      <LoadingDots />
+                    </div>
+                  )}
                 </div>
               </li>
             ))}
