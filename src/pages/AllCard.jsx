@@ -6,7 +6,6 @@ const AllCard = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
 
-  
   const datas = [
     { count: "1", numbers: ["128 137 236 678", "245 290 470 579"] },
     { count: "2", numbers: ["129 147 246 679", "345 390 480 589"] },
@@ -97,7 +96,7 @@ const AllCard = () => {
     <div className="pt-4 font-poppins bg-orange-200 min-h-screen">
       <div className=" px-4">
         <h1 className=" text-4xl font-bold px-4 text-center font-playwrite pt-4 pb-8">
-          Shree Laxmi
+          SattaMatka555
         </h1>
 
         <h2 className=" text-3xl font-semibold text-center uppercase pt-4 pb-2">
@@ -145,10 +144,10 @@ const AllCard = () => {
 
         <div className=" text-center text-xs font-semibold text-gray-800 px-4 pb-4">
           Hello everyone, how are you all? I hope you all are doing well.
-          Welcome to Dpboss.Services Today we are exploring a very important
-          page of our website, it will help you a lot to learn the Panna Panel
-          and Patti Chart. So this page includes all 22 cards of Panna Panel
-          Patti, in the form of a chart.
+          Welcome to SattaMatka555.Services Today we are exploring a very
+          important page of our website, it will help you a lot to learn the
+          Panna Panel and Patti Chart. So this page includes all 22 cards of
+          Panna Panel Patti, in the form of a chart.
           <br />
           <br /> When you visit this page, you see on the top, there are panels
           written for every single digit like 1, 2, 3, 4, 5, 6, 7, 8, 9, and 0,

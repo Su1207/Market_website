@@ -9,7 +9,7 @@ const KhatriPannaChart = () => {
   return (
     <div className="pt-4 font-poppins bg-orange-200 min-h-screen">
       <h1 className=" text-4xl font-bold text-center font-playwrite py-4">
-        Shree Laxmi
+        SattaMatka555
       </h1>
 
       <h1 className=" text-3xl font-semibold text-center pt-8 pb-4">
@@ -80,9 +80,9 @@ const KhatriPannaChart = () => {
 
       <div className=" text-center text-xs font-semibold text-gray-800 px-4 py-4">
         Hello, all the Matka Enthusiasts. Today I welcome you to our platform
-        Dpboss.Services and today we will talk about Khatri's favorite Panna
-        chart. So this is a little different Panna chart and this is from the
-        panel side. It's not from the Jodi, so here is a dedicated page for
+        SattaMatka555.Services and today we will talk about Khatri's favorite
+        Panna chart. So this is a little different Panna chart and this is from
+        the panel side. It's not from the Jodi, so here is a dedicated page for
         Khatri's favourite Panna chart.
         <br />
         <br /> This page is specially designed by our expert authors to provide

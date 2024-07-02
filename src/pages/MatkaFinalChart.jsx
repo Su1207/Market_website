@@ -9,7 +9,7 @@ const MatkaFinalChart = () => {
   return (
     <div className="pt-4 font-poppins bg-orange-200 min-h-screen">
       <h1 className=" text-4xl font-bold text-center font-playwrite pt-4 pb-8">
-        Shree Laxmi
+        SattaMatka555
       </h1>
       <div className=" border-4 rounded-md shadow-lg text-center border-pink-600 p-2 mb-8">
         <h1 className=" text-3xl font-semibold text-center mb-6">
@@ -181,10 +181,10 @@ const MatkaFinalChart = () => {
       </div>
 
       <div className=" text-center text-xs font-semibold text-gray-800 px-4 py-4">
-        Hello everyone, I hope you all are well. Welcome to Dpboss.Services So
-        today I welcome you to the Matka Final Number Chart. This is a dedicated
-        page for the Matka Final Number Chart, and you will learn about it on
-        this page.
+        Hello everyone, I hope you all are well. Welcome to
+        SattaMatka555.Services So today I welcome you to the Matka Final Number
+        Chart. This is a dedicated page for the Matka Final Number Chart, and
+        you will learn about it on this page.
         <br />
         <br /> So the first question is how to use the Satta Matka Final Number
         Chart. So, here is a little bit conceptual thing, you need to understand

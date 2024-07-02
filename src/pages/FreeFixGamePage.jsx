@@ -16,7 +16,7 @@ const FreeFixGamePage = () => {
     <div className="p-4  font-poppins bg-orange-200 min-h-screen">
       <div className="border border-red-600 shadow-lg py-4 rounded-md">
         <h1 className=" text-4xl font-bold text-center font-playwrite py-4">
-          Shree Laxmi
+          SattaMatka555
         </h1>
 
         <h1 className=" text-4xl font-semibold text-center py-8">
@@ -278,11 +278,11 @@ const FreeFixGamePage = () => {
 
         <div className=" text-center text-xs font-semibold text-gray-800 px-4">
           Hello, all the Enthusiasts Of The Satta Matka. Today I welcome you to
-          our platform Dpboss.Services and this page is very special, it is the
-          Matka Free Open Fix Ank. So, here you will learn Open To Close Fix Ank
-          for the date, so here you can see the first date is given, and it is
-          today's date then 'free guessing', you will learn about the Open To
-          Close Fix Ank.
+          our platform SattaMatka555.Services and this page is very special, it
+          is the Matka Free Open Fix Ank. So, here you will learn Open To Close
+          Fix Ank for the date, so here you can see the first date is given, and
+          it is today's date then 'free guessing', you will learn about the Open
+          To Close Fix Ank.
           <br />
           <br /> Now, you will understand the entire thing, below is the
           breakdown of the different markets, so the first market is Rose Bazar

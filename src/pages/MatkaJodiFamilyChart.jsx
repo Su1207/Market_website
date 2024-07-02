@@ -22,7 +22,7 @@ const MatkaJodiFamilyChart = () => {
   return (
     <div className="pt-4 font-poppins bg-orange-200 min-h-screen">
       <h1 className=" text-4xl font-bold text-center font-playwrite pt-4 pb-8">
-        Shree Laxmi
+        SattaMatka555
       </h1>
       <div className=" border-4 rounded-md shadow-lg text-center border-pink-600 py-4 px-2 mb-12">
         <h1 className=" text-3xl font-semibold text-center mb-4">
@@ -61,11 +61,12 @@ const MatkaJodiFamilyChart = () => {
       </div>
 
       <div className=" text-center text-xs font-semibold text-gray-800 px-4 py-4">
-        Hello, all the Satta Matka players on our platform Dpboss.services Today
-        we are exploring a very important Jodi Chart. This is called the Matka
-        Jodi Family Chart. So, according to the definition of the Matka Jodi
-        Family Record, the Jodis, which are called the pairs of two numbers, can
-        be divided into 11 different types of groups, based on their cut.
+        Hello, all the Satta Matka players on our platform
+        SattaMatka555.services Today we are exploring a very important Jodi
+        Chart. This is called the Matka Jodi Family Chart. So, according to the
+        definition of the Matka Jodi Family Record, the Jodis, which are called
+        the pairs of two numbers, can be divided into 11 different types of
+        groups, based on their cut.
         <br />
         <br /> So, whenever Jodis of the same family, they are considered to be
         related together, and they are almost the same. They have very minor

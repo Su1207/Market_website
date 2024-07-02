@@ -101,7 +101,7 @@ const PanelCountChart = () => {
   return (
     <div className="pt-4 font-poppins bg-orange-200 min-h-screen">
       <h1 className=" text-4xl font-bold px-4 text-center font-playwrite pt-4 pb-8">
-        Shree Laxmi
+        SattaMatka555
       </h1>
       <div className=" border-4 rounded-md mx-4 shadow-lg text-center border-pink-600 py-4 px-2 mb-12">
         <p className=" text-lg font-semibold">
@@ -116,7 +116,7 @@ const PanelCountChart = () => {
       </div>
 
       <h1 className=" text-2xl uppercase px-4 font-semibold font-playwrite text-center mb-4">
-        Shree Laxmi Panel Count Chart
+        SattaMatka555 Panel Count Chart
       </h1>
 
       <div className=" pb-4">

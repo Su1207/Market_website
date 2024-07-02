@@ -14,12 +14,12 @@ const About = () => {
 
       <div className="mb-4 mx-4 bg-[#45ffc7] shadow-lg rounded-md p-4 py-8 text-center">
         <h2 className=" font-playwrite text-2xl font-bold mb-4">
-          What is Shree Laxmi
+          What is SattaMatka555
         </h2>
         <p className=" text-xs sm:text-sm text-gray-700">
-          Shree Laxmi is one of the popular websites that declare the results of
-          Satta Matka on a daily basis thus providing a smooth gaming
-          experience. Through the help of the Shree Laxmi website, users can
+          SattaMatka555 is one of the popular websites that declare the results
+          of Satta Matka on a daily basis thus providing a smooth gaming
+          experience. Through the help of the SattaMatka555 website, users can
           guess numbers for the lucky draw that helps them in winning crores.
           This is a one-stop website for Matka Online, Market, Panel Chart,
           Matka Chart, Fix Matka Jodi, Indian Matka, Kalyan Result, Boss Matka,
@@ -31,18 +31,18 @@ const About = () => {
 
       <div className="mb-4 mx-4 bg-[#45ffc7] shadow-lg rounded-md p-4 py-8 md:flex items-center gap-5">
         <h2 className="flex-1 flex flex-col gap-2 font-playwrite text-2xl font-bold mb-4 text-center">
-          What is Shree Laxmi?
+          What is SattaMatka555?
           <span className=" text-lg">
             Check Live Updates of Satta Matka Results
           </span>
         </h2>
         <p className=" flex-1 text-xs sm:text-sm md:text-left text-center text-gray-700">
-          Shree Laxmi is one stop website for Matka Online, Matka Chart, Market,
-          Panel Chart, Fix Matka Jodi, Boss Matka, Indian Matka, Kalyan Result,
-          Kalyan Matka, Matka Result, and more. Also Check Results for Satta
-          Matka Shree Laxmi Dot Net is currently one of the most popular site
-          that publishes Satta Matka results daily. Not only fast results, the
-          site also helps users with guessing numbers for lucky draw that
+          SattaMatka555 is one stop website for Matka Online, Matka Chart,
+          Market, Panel Chart, Fix Matka Jodi, Boss Matka, Indian Matka, Kalyan
+          Result, Kalyan Matka, Matka Result, and more. Also Check Results for
+          Satta Matka SattaMatka555 Dot Net is currently one of the most popular
+          site that publishes Satta Matka results daily. Not only fast results,
+          the site also helps users with guessing numbers for lucky draw that
           sometime help people in winning crores. It is one stop website for
           Matka Online, Matka Chart, Market, Panel Chart, Fix Matka Jodi, Boss
           Matka, Indian Matka, Kalyan Result, Kalyan Matka, Matka Result, and
@@ -68,14 +68,14 @@ const About = () => {
 
       <div className="mb-4 mx-4 bg-[#45ffc7] shadow-lg rounded-md p-4 py-8 text-center">
         <h2 className=" font-playwrite text-2xl font-bold mb-4">
-          What is shreelaxmi.services?
+          What is sattamatka555.services?
         </h2>
         <p className=" text-xs sm:text-sm text-gray-700">
-          shreelaxmi.services is a website that provides user all satta matka
+          sattamatka555.services is a website that provides user all satta matka
           games results online daily. Here you can also look for guessing
           numbers before playing the game. The guessing numbers may not be
           correct every time, still one can try their luck as it is displayed on
-          the website based on extensive research. shreelaxmi.services is
+          the website based on extensive research. sattamatka555.services is
           currently one of th most popular site that provides results on a
           regular intervals. Some of the games of the matka online site
           includes, Single, Jody, Single Patty, Double Patty, Triple Patty, Half
@@ -90,34 +90,34 @@ const About = () => {
         <div className=" sm:flex items-start gap-4 mb-8 border-b pb-4 border-gray-700">
           <div className=" flex-1">
             <h2 className=" font-playwrite text-lg sm:text-xl font-bold mb-4">
-              What is Shree Laxmi Fix Today?
+              What is SattaMatka555 Fix Today?
             </h2>
             <p className=" text-xs sm:text-sm text-gray-700">
-              Shree Laxmi Fix is the jodi or pair of guessing number by Shree
-              Laxmi so that user can predict these numbers while playing Satta
-              Matka.
+              SattaMatka555 Fix is the jodi or pair of guessing number by
+              SattaMatka555 so that user can predict these numbers while playing
+              Satta Matka.
             </p>
           </div>
           <div className="flex-1 sm:mt-0 mt-4">
             <h2 className=" font-playwrite text-lg sm:text-xl font-bold mb-4">
-              What is Shree Laxmi Fix Jodi?
+              What is SattaMatka555 Fix Jodi?
             </h2>
             <p className=" text-xs sm:text-sm text-gray-700">
-              Shree Laxmi Fix Jodi or Shree Laxmi Fix patti is the guessed pairs
-              of number which has the high probability of getting in Satta
+              SattaMatka555 Fix Jodi or SattaMatka555 Fix patti is the guessed
+              pairs of number which has the high probability of getting in Satta
               Matka. You can get these fix jodi or fix patti by visiting the
-              shreelaxmi.services.
+              sattamatka555.services.
             </p>
           </div>
         </div>
 
         <div>
           <h2 className=" font-playwrite text-2xl font-bold mb-4">
-            Shree Laxmi Kalyan Result Today
+            SattaMatka555 Kalyan Result Today
           </h2>
           <p className=" text-xs sm:text-sm text-gray-700">
             Kalyan Result is the Kalyan Satta Result which is published thrice a
-            day on daily wages on saconindia.org. Shree Laxmi releases the
+            day on daily wages on saconindia.org. SattaMatka555 releases the
             Kalyan results at 11:15 AM- 1:15 and 3:45 PM to 5:45 PM.
             <br />
             <br /> Kalyan Day Result: 3:45 PM- 5:45 PM

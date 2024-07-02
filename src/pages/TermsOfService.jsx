@@ -9,7 +9,7 @@ const TermsOfService = () => {
     <div>
       <div className="container mx-auto p-6 bg-orange-200 font-poppins">
         <h1 className=" text-5xl font-bold text-center font-playwrite pt-2 mb-8">
-          Shree Laxmi
+          SattaMatka555
         </h1>
         <h1 className="text-3xl text-center sm:text-left font-bold mb-6">
           TERMS OF USE
@@ -25,7 +25,7 @@ const TermsOfService = () => {
           These Terms of Use constitute a legally binding agreement made between
           you, whether personally or on behalf of an entity (you) and Satta
           Matka ("Company", "we", "us”, or "our"), concerning your access to and
-          use of the https://dpbossss.services website as well as any other
+          use of the https://sattaMatka555.services website as well as any other
           media form, media channel, mobile website or mobile application
           related, linked, or otherwise connected thereto (collectively, the
           "Site”). You agree that by accessing the Site, you have read,
@@ -524,10 +524,10 @@ const TermsOfService = () => {
           We care about data privacy and security. Please review our Privacy
           Policy:{" "}
           <a
-            href="https://dpbossss.services/privacy.php"
+            href="https://sattaMatka555.services/privacy.php"
             className="text-blue-500 underline"
           >
-            https://dpbossss.services/privacy.php
+            https://sattaMatka555.services/privacy.php
           </a>
           . By using the Site, you agree to be bound by our Privacy Policy,
           which is incorporated into these Terms of Use. Please be advised the
@@ -832,10 +832,10 @@ const TermsOfService = () => {
           India
           <br />
           <a
-            href="mailto:support@dpbossss.services"
+            href="mailto:support@sattaMatka555.services"
             className="text-blue-500 underline"
           >
-            support@dpbossss.services
+            support@sattaMatka555.services
           </a>
         </p>
       </div>

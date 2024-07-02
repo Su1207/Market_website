@@ -7,7 +7,7 @@ const PrivacyNotice = () => {
   return (
     <div className="container mx-auto px-4 p-6 bg-orange-200 font-poppins">
       <h1 className=" text-5xl font-bold text-center font-playwrite pt-2 mb-8">
-        Shree Laxmi
+        SattaMatka555
       </h1>
       <h1 className="text-3xl text-center sm:text-left font-bold mb-4">
         PRIVACY NOTICE
@@ -23,18 +23,21 @@ const PrivacyNotice = () => {
         questions or concerns about this privacy notice, or our practices with
         regards to your personal information, please contact us at{" "}
         <a
-          href="mailto:support@dpbossss.services"
+          href="mailto:support@sattaMatka555.services"
           className="text-blue-500 underline"
         >
-          support@dpbossss.services
+          support@sattaMatka555.services
         </a>
         .
       </p>
 
       <p className="text-justify sm:text-left text-sm mb-4">
         When you visit our website{" "}
-        <a href="https://dpbossss.services" className="text-blue-500 underline">
-          https://dpbossss.services
+        <a
+          href="https://sattaMatka555.services"
+          className="text-blue-500 underline"
+        >
+          https://sattaMatka555.services
         </a>{" "}
         (the "Website"), use our mobile application, as the case may be (the
         "App") and more generally, use any of our services (the "Services",

@@ -90,10 +90,10 @@ const ContactPage = () => {
               <p>Email</p>
             </div>
             <a
-              href={`mailto:shreelaxmi@gmail.com`}
+              href={`mailto:sattaMatka555@gmail.com`}
               className="text-blue-600 hover:underline"
             >
-              shreelaxmi@gmail.com
+              sattaMatka555@gmail.com
             </a>
           </div>
           <div className=" flex items-center text-sm mb-4 gap-12">
@@ -121,8 +121,9 @@ const ContactPage = () => {
 
       <div className=" bg-orange-300 mx-4 p-4 border-red-500 rounded-md shadow-lg text-xs text-center my-8">
         Hello, all the Satta Matka Enthusiasts! Welcome to the contact details
-        of our website Dpboss.Services If you are a customer and you have any
-        queries, then you can fill out the below form here and then contact us.
+        of our website SattaMatka555.Services If you are a customer and you have
+        any queries, then you can fill out the below form here and then contact
+        us.
         <br />
         <br />
         We will respond as soon as we check your email. So here you need to fill

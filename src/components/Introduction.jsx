@@ -4,34 +4,34 @@ const Introduction = () => {
   return (
     <div className=" bg-orange-400 text-black p-4">
       <div className=" text-3xl font-bold text-center mt-10 my-4 font-playwrite">
-        Introduction to Shree Laxmi
+        Introduction to SattaMatka555
       </div>
 
       <p className=" sm:text-center text-justify text-xs font-semibold font-poppins p-4 leading-6">
-        Welcome To DPBoss, Where Entertainment Takes Center Stage, And A World
-        Of Diverse Activities Awaits You. In Our Vibrant Community, We've
+        Welcome To SattaMatka555, Where Entertainment Takes Center Stage, And A
+        World Of Diverse Activities Awaits You. In Our Vibrant Community, We've
         Crafted An Experience Beyond Conventional Platforms, Offering A Rich
         Tapestry Of Entertainment For Users With Varied Interests. <br />
         <br />
         Discover The Joy Of Connecting With Like-Minded Individuals Through Our
         Socializing Features. Whether You're An Extrovert Seeking Lively
-        Conversations Or An Introvert Looking For A Cozy Virtual Space, DPBoss
-        Is Your Go-To Destination For Meaningful Connections.
+        Conversations Or An Introvert Looking For A Cozy Virtual Space,
+        SattaMatka555 Is Your Go-To Destination For Meaningful Connections.
         <br />
-        <br /> DPBOSS.Service Is Your Ultimate Destination For Everything
-        Related To The Fascinating World Of The Satta Matka. As The DPBOSS Is A
-        Leading Authority In The Realm Of Matka Games, This Is Your Go-To
-        Platform For Any Reliable Information Along With Accurate Matka Results
-        And Expert Guidance Obviously. Whether You Are A Pro Or A Newcomer
-        Player The Comprehensive Collection Of Resources Such As Kalyan Matka,
-        Matka Result, And Mumbai Matka, Will Provide You With The Thrilling And
-        Immersive Experience. Join Us Along And We Will Embark On This
-        Captivating Adventure, Where Every Matka Number, Matka Chart, And Matka
-        Games Hold The Potential To Unlock Fortunes.
+        <br /> SattaMatka555.Service Is Your Ultimate Destination For Everything
+        Related To The Fascinating World Of The Satta Matka. As The
+        SattaMatka555 Is A Leading Authority In The Realm Of Matka Games, This
+        Is Your Go-To Platform For Any Reliable Information Along With Accurate
+        Matka Results And Expert Guidance Obviously. Whether You Are A Pro Or A
+        Newcomer Player The Comprehensive Collection Of Resources Such As Kalyan
+        Matka, Matka Result, And Mumbai Matka, Will Provide You With The
+        Thrilling And Immersive Experience. Join Us Along And We Will Embark On
+        This Captivating Adventure, Where Every Matka Number, Matka Chart, And
+        Matka Games Hold The Potential To Unlock Fortunes.
       </p>
 
       <h4 className=" text-xl font-bold font-playwrite text-center p-4">
-        History of Shree Laxmi
+        History of SattaMatka555
       </h4>
       <p className=" sm:text-center text-justify text-xs font-semibold font-poppins p-4 leading-6">
         The History Of Satta Matka Dates To The 1960s When It Originated As A
@@ -230,7 +230,7 @@ const Introduction = () => {
         <div className="border border-red-500 h-0 w-full my-3"></div>
 
         <h4 className=" text-xl font-bold font-playwrite text-center p-4">
-          Matka Jodi on Shree Laxmi: Combining Numbers for Winning Bets
+          Matka Jodi on SattaMatka555: Combining Numbers for Winning Bets
         </h4>
         <p className=" sm:text-center text-justify text-xs font-semibold font-poppins px-2 sm:px-4 leading-6 ">
           Matka Jodi is a term which is often used in Matka gambling to refer a

@@ -8,7 +8,7 @@ const MatkaJodiChart = () => {
   return (
     <div className="pt-4 font-poppins bg-orange-200 min-h-screen">
       <h1 className=" text-4xl font-bold text-center font-playwrite pt-4 pb-8">
-        Shree Laxmi
+        SattaMatka555
       </h1>
       <div className=" border-4 rounded-md shadow-lg text-center border-pink-600 py-4 px-2 mb-12">
         <h1 className=" text-xl font-semibold text-center">
@@ -110,11 +110,12 @@ const MatkaJodiChart = () => {
       </div>
 
       <div className=" text-center text-xs font-semibold text-gray-800 px-4 py-4">
-        Hello everyone, welcome to our platform Dpboss.Services and today we
-        will shed light on the Matka Jodi count chart. So this is a very simple
-        count chart, but a very important one, and it will help you understand
-        the concept of the count chart in the Satta Matka language. So we have
-        several entries here on this page for the Matka Jodi count chart.
+        Hello everyone, welcome to our platform SattaMatka555.Services and today
+        we will shed light on the Matka Jodi count chart. So this is a very
+        simple count chart, but a very important one, and it will help you
+        understand the concept of the count chart in the Satta Matka language.
+        So we have several entries here on this page for the Matka Jodi count
+        chart.
         <br />
         <br /> First, we have count 0 and the figure for it is 00. Then we have
         count 1 and here we have some figures. Mostly figures are starting from

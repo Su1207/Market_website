@@ -7,20 +7,20 @@ const GuessingForum = () => {
   return (
     <div className="py-4 font-poppins bg-orange-300 min-h-screen">
       <h1 className=" text-4xl font-bold text-center font-playwrite pt-4 pb-8">
-        Shree Laxmi
+        SattaMatka555
       </h1>
       <div className=" border-2 rounded-md shadow-lg text-center border-pink-600 px-2 py-4 mb-8">
         <h1 className=" text-3xl font-semibold text-center mb-6">
-          Dpboss Satta Matka Guessing Kalyan Main Bazar Madhur Matka
+          SattaMatka555 Satta Matka Guessing Kalyan Main Bazar Madhur Matka
         </h1>
 
         <p className=" text-sm font-semibold text-center ">
-          Dpboss Satta Matka Guessing Forum For Kalyan Milan Main Bazar Rajdhani
-          Madhur Matka Time Bazar Morning Madhur Sridevi All Matka Guessing Open
-          To Close Free Ank Kalyan Fix Jodi Aaj Ke Liye Today Locky Fix Matka
-          Satta Number Satta Matka 143 24 19Games satta king Matta Batta Online
-          Matka Play Trusted Best सात्त मटका कल्याण मधुर मटका रेसुल्ट ऑनलाइन
-          प्ले
+          SattaMatka555 Satta Matka Guessing Forum For Kalyan Milan Main Bazar
+          Rajdhani Madhur Matka Time Bazar Morning Madhur Sridevi All Matka
+          Guessing Open To Close Free Ank Kalyan Fix Jodi Aaj Ke Liye Today
+          Locky Fix Matka Satta Number Satta Matka 143 24 19Games satta king
+          Matta Batta Online Matka Play Trusted Best सात्त मटका कल्याण मधुर मटका
+          रेसुल्ट ऑनलाइन प्ले
         </p>
 
         <p className=" text-sm font-semibold text-center mt-4">

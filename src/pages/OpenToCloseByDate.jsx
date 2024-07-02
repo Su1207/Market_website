@@ -8,7 +8,7 @@ const OpenToCloseByDate = () => {
   return (
     <div className="pt-4 font-poppins bg-orange-200 min-h-screen">
       <h1 className=" text-4xl font-bold text-center font-playwrite pt-4 pb-8">
-        Shree Laxmi
+        SattaMatka555
       </h1>
 
       <div className=" border-4 rounded-md shadow-lg text-center border-pink-600 py-4 px-2 mb-12">
@@ -78,9 +78,9 @@ const OpenToCloseByDate = () => {
 
       <div className=" text-center text-xs font-semibold text-gray-800 px-4 py-4">
         Hello everyone, how are you all the Satta Matka Enthusiasta, today I am
-        very excited to welcome all of you on Dpboss.Services and today I will
-        introduce you to our very important page which is Fix Open to Close by
-        Date.
+        very excited to welcome all of you on SattaMatka555.Services and today I
+        will introduce you to our very important page which is Fix Open to Close
+        by Date.
         <br />
         <br /> This concept is called Dhanvarsha, finding your open and close
         according to the current date of any month or year, is a concept which

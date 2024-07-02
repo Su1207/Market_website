@@ -37,10 +37,10 @@ const Footer = () => {
       </div>
       <div className=" px-4 py-12 bg-black text-white">
         <h2 className=" text-xl font-bold font-poppins text-center">
-          POWERED BY <span className=" font-playwrite">Shree Laxmi</span>
+          POWERED BY <span className=" font-playwrite">SattaMatka555</span>
         </h2>
         <div className=" flex flex-col gap-2 justify-center items-center text-sm mt-6">
-          <div>&copy; 2011-2024 shree laxmi</div>
+          <div>&copy; 2011-2024 SattaMatka555</div>
           <div className=" flex items-center gap-2">
             <Link
               to={"/about"}

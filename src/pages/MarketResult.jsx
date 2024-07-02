@@ -107,8 +107,6 @@ const MarketResult = () => {
     window.location.reload();
   };
 
-  const text = "Sample Text";
-
   return (
     <div className="relative w-full font-poppins bg-orange-200">
       <div className="fixed bottom-2 border-2 border-gray-300 left-3 bg-blue-800 text-white cursor-pointer hover:bg-black transition-all duration-300 ease-out font-semibold py-2 px-3 text-sm rounded-md">
@@ -145,10 +143,12 @@ const MarketResult = () => {
           NOTICE
         </div>
         <p className=" text-base leading-7 mx-4 bg-red-600 text-gray-200 font-semibold text-center mt-2 p-4 border border-red-500 rounded-md shadow-lg">
-          अपना बाजार shreelaxmi.services वेबसाइट में डलवाने
+          अपना बाजार sattamatka555.services वेबसाइट में डलवाने
           <br /> के लिए आज ही हमें ईमेल करे
           <br />{" "}
-          <span className=" text-blue-950">Email : support@shreelaxmi.net</span>
+          <span className=" text-blue-950">
+            Email : support@sattamatka555.net
+          </span>
           <br /> शर्ते लागु
         </p>
 
@@ -157,7 +157,8 @@ const MarketResult = () => {
           MATKA.COM | MATKA PANA JODI TODAY | BATTA SATKA | MATKA PATTI JODI
           NUMBER | MATKA RESULTS | MATKA CHART | MATKA JODI | SATTA COM | FULL
           RATE GAME | MATKA GAME | MATKA WAPKA | ALL MATKA RESULT LIVE ONLINE |
-          MATKA RESULT | KALYAN MATKA RESULT | DPBOSS MATKA 143 | MAIN MATKA
+          MATKA RESULT | KALYAN MATKA RESULT | SATTMATKA555 MATKA 143 | MAIN
+          MATKA
         </p>
       </div>
 
@@ -252,18 +253,20 @@ const MarketResult = () => {
 
       <div className=" px-4 mb-2">
         <div className=" bg-pink-500 border-2 border-gray-100 shadow-lg text-center text-white mb-1 rounded-xl py-2 font-playwrite font-bold">
-          EverGreen Trick Zone And Matka Tricks By DpBoss
+          EverGreen Trick Zone And Matka Tricks By SattaMatka555
         </div>
         <div className="container border-2 border-blue-900 rounded-md">
           <div className="red-container text-center py-2">
-            <h1 className="text-white font-bold">Dpboss Special Game Zone</h1>
+            <h1 className="text-white font-bold">
+              SattaMatka555 Special Game Zone
+            </h1>
           </div>
           <div className="content py-2 text-xl flex flex-col  text-center text-purple-700 font-semibold">
             <Link
               to={"/guessing-forum"}
               className="py-2 border-t border-red-600"
             >
-              {["Dpboss Guessing Forum (Post)"].map((char, index) => (
+              {["SattaMatka555 Guessing Forum (Post)"].map((char, index) => (
                 <span
                   key={index}
                   className="animate-colorChange inline-block"
