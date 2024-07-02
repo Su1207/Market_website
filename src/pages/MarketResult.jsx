@@ -14,6 +14,28 @@ const formatResult = (open, mid, close) => {
   return `${open}-${mid}-${close}`;
 };
 
+const getTimeStampFromDateAndTime = (timeString) => {
+  // Example timeString format: "09:55 PM"
+  const [time, period] = timeString.split(" "); // Split time and period (AM/PM)
+
+  let [hours, minutes] = time.split(":").map(Number); // Extract hours and minutes
+
+  if (period === "PM" && hours < 12) {
+    hours += 12; // Convert PM hours to 24-hour format
+  }
+
+  // Get current date
+  const currentDate = new Date();
+  const year = currentDate.getFullYear();
+  const month = currentDate.getMonth();
+  const day = currentDate.getDate();
+
+  // Create a new Date object with the current date and extracted time
+  const timestamp = new Date(year, month, day, hours, minutes).getTime();
+
+  return timestamp;
+};
+
 const MarketResult = () => {
   const [result, setResult] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -65,16 +87,33 @@ const MarketResult = () => {
               ? formatResult(resultData.OPEN, resultData.MID, resultData.CLOSE)
               : "✦✦✦-✦✦-✦✦✦";
 
+            const openTime = new Date(open).toLocaleTimeString([], {
+              hour: "2-digit",
+              minute: "2-digit",
+            });
+
+            const closeTime = new Date(close).toLocaleTimeString([], {
+              hour: "2-digit",
+              minute: "2-digit",
+            });
+
             combinedData.push({
               key: gameKey,
               NAME: name,
               RESULT: resultString,
-              OPEN: open,
-              CLOSE: close,
+              OPEN: openTime,
+              CLOSE: closeTime,
               COLOR: color,
               LUCKY_NO: lucky_no,
             });
           });
+
+          combinedData.sort(
+            (a, b) =>
+              getTimeStampFromDateAndTime(a.OPEN) -
+              getTimeStampFromDateAndTime(b.OPEN)
+          ); // Sort by OPEN time
+
           setResult(combinedData);
         }
       } catch (error) {
@@ -221,12 +260,8 @@ const MarketResult = () => {
                       {data.RESULT}
                     </p>
                     <div className=" flex items-center justify-center text-sm sm:text-base font-semibold gap-2 sm:gap-5">
-                      <div className=" text-center">
-                        {convertToTime(data.OPEN)}
-                      </div>
-                      <div className=" text-center">
-                        {convertToTime(data.CLOSE)}
-                      </div>
+                      <div className=" text-center">{data.OPEN}</div>
+                      <div className=" text-center">{data.CLOSE}</div>
                     </div>
                   </div>
                   <div
