@@ -287,7 +287,7 @@ const Introduction = () => {
       <div className="border border-red-500 h-0 w-full my-2"></div>
 
       <h4 className=" text-xl font-bold font-playwrite text-center p-2">
-        Who is Shri Laxmi?
+        Who is SattaMatka555?
       </h4>
       <p className=" sm:text-center text-justify text-xs font-semibold font-poppins px-2 sm:px-4 leading-6 ">
         Shri Laxmi Is Known For Providing The Best Tips And Guidance To Players
