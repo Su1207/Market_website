@@ -13,13 +13,13 @@ const FreeFixGamePage = () => {
 
   const date = `${day}/${month}/${year}`;
   return (
-    <div className="p-4  font-poppins bg-orange-200 min-h-screen">
+    <div className="p-4  font-poppins bg-orange-300 min-h-screen">
       <div className="border border-red-600 shadow-lg py-4 rounded-md">
-        <h1 className=" text-4xl font-bold text-center font-playwrite py-4">
-          SattaMatka555
-        </h1>
+        <div className=" flex items-center justify-center mb-4">
+          <img src="/logo.gif" alt="" />
+        </div>
 
-        <h1 className=" text-4xl font-semibold text-center py-8">
+        <h1 className=" text-4xl font-semibold font-playwrite text-center pt-8 pb-4">
           OPEN TO CLOSE FIX ANK
         </h1>
 

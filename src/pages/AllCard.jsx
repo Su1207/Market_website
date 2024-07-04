@@ -93,13 +93,13 @@ const AllCard = () => {
   ];
 
   return (
-    <div className="pt-4 font-poppins bg-orange-200 min-h-screen">
+    <div className="pt-4 font-poppins bg-orange-300 min-h-screen">
       <div className=" px-4">
-        <h1 className=" text-4xl font-bold px-4 text-center font-playwrite pt-4 pb-8">
-          SattaMatka555
-        </h1>
+        <div className=" flex items-center justify-center mb-4">
+          <img src="/logo.gif" alt="" />
+        </div>
 
-        <h2 className=" text-3xl font-semibold text-center uppercase pt-4 pb-2">
+        <h2 className=" text-3xl sm:text-4xl font-semibold font-playwrite text-center uppercase pt-4 pb-2">
           All 22 Card Panna panel patti chart
         </h2>
 

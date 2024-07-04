@@ -274,7 +274,7 @@ const MarketTracker = () => {
 
   return (
     <div className=" w-full font-poppins my-8">
-      <h2 className=" text-center font-playwrite text-3xl font-bold">
+      <h2 className=" text-center font-playwrite text-3xl sm:text-5xl font-bold">
         LIVE RESULTS
       </h2>
       {openArray.length === 0 && closeArray.length === 0 ? (

@@ -8,7 +8,7 @@ const ContactPage = () => {
 
   return (
     <div className=" w-full bg-blue-50 min-h-screen font-poppins ">
-      <div className=" text-4xl font-bold font-playwrite text-center px-4 py-8">
+      <div className=" text-4xl sm:text-5xl font-bold font-playwrite text-center px-4 py-8">
         Contact Details
       </div>
 

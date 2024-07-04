@@ -35,7 +35,7 @@ const LuckyNumber = ({ result }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className=" font-playwrite text-3xl font-bold text-center">
+      <div className=" font-playwrite text-3xl sm:text-5xl font-bold text-center">
         TODAY LUCKY NUMBER
       </div>
       <div className=" h-[8rem] flex gap-4 mt-4 border border-red-500 p-4 rounded-md shadow-lg bg-yellow-400">

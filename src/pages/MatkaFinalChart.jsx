@@ -7,12 +7,12 @@ const MatkaFinalChart = () => {
   }, []);
 
   return (
-    <div className="pt-4 font-poppins bg-orange-200 min-h-screen">
-      <h1 className=" text-4xl font-bold text-center font-playwrite pt-4 pb-8">
-        SattaMatka555
-      </h1>
+    <div className="pt-4 font-poppins bg-orange-300 min-h-screen">
+      <div className=" flex items-center justify-center mb-4">
+        <img src="/logo.gif" alt="" />
+      </div>
       <div className=" border-4 rounded-md shadow-lg text-center border-pink-600 p-2 mb-8">
-        <h1 className=" text-3xl font-semibold text-center mb-6">
+        <h1 className=" text-4xl font-playwrite font-semibold text-center mb-6">
           MATKA FINAL NUMBER CHART
         </h1>
         <h1 className=" text-2xl font-semibold text-center mb-4 underline">
@@ -37,7 +37,7 @@ const MatkaFinalChart = () => {
           </span>
         </p>
       </div>
-      <h1 className=" text-2xl font-semibold text-center font-playwrite mb-4">
+      <h1 className=" text-3xl font-semibold text-center font-playwrite mb-4">
         MATKA FINAL NUMBER CHART
       </h1>
       <div className=" border-4 rounded-md shadow-lg text-center border-blue-900 p-2 px-4 mb-8">

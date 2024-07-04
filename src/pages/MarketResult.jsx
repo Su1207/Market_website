@@ -163,7 +163,7 @@ const MarketResult = () => {
   };
 
   return (
-    <div className="relative w-full font-poppins bg-orange-200">
+    <div className="relative w-full font-poppins bg-orange-300">
       <div
         onClick={handleUrl}
         className="fixed bottom-2 border-2 border-gray-300 left-3 bg-blue-800 text-white cursor-pointer hover:bg-black transition-all duration-300 ease-out font-semibold py-2 px-3 text-sm rounded-md"
@@ -183,7 +183,7 @@ const MarketResult = () => {
       <MarketTracker />
 
       <div className=" my-8">
-        <p className=" text-base leading-7 mx-4 bg-red-600 text-gray-200 font-semibold text-center mt-2 p-4 border border-red-500 rounded-md shadow-lg">
+        <div className=" text-base leading-7 mx-4 bg-red-600 text-gray-200 font-semibold text-center mt-2 p-4 border border-red-500 rounded-md shadow-lg">
           <p>
             अब सभी मटका बाजार खेलो ऑनलाइन ऐप पर रोज खेलो रोज कमाओ अभी डाउनलोड
             करो
@@ -198,9 +198,9 @@ const MarketResult = () => {
             </button>
           </div>
           <p>With 100% Trusted App - Special Offer - Instant Withdraw</p>
-        </p>
+        </div>
 
-        <div className="text-xl mt-4 sm:text-3xl font-playwrite uppercase font-bold text-center">
+        <div className="text-3xl mt-4 sm:text-5xl font-playwrite uppercase font-extrabold text-center">
           NOTICE
         </div>
         <p className=" text-base leading-7 mx-4 bg-red-600 text-gray-200 font-semibold text-center mt-2 p-4 border border-red-500 rounded-md shadow-lg">
@@ -223,7 +223,7 @@ const MarketResult = () => {
         </p>
       </div>
 
-      <div className="text-xl sm:text-3xl font-playwrite uppercase font-bold text-center my-8">
+      <div className="text-3xl sm:text-5xl font-playwrite uppercase font-bold text-center my-8">
         Fastest Market Result
       </div>
       {isLoading ? (
@@ -300,8 +300,8 @@ const MarketResult = () => {
       )}
 
       <div className="px-4 mb-2">
-        <div className=" bg-gray-100 border-2 border-red-500 shadow-lg text-center mb-1 rounded-xl py-2 text-xl  font-bold">
-          Contact for any inquiries Or Support:{" "}
+        <div className=" bg-gray-100 border-2 flex items-center flex-wrap gap-2 justify-center border-red-500 shadow-lg text-center mb-1 rounded-xl py-2 text-sm sm:text-base md:text-xl  font-bold">
+          Contact for any inquiries Or Support:
           <span className="py-1 px-5 shadow-lg text-blue-950 bg-orange-400 rounded-full">
             +91-8888888888
           </span>
@@ -312,13 +312,13 @@ const MarketResult = () => {
         <div className=" bg-pink-500 border-2 border-gray-100 shadow-lg text-center text-white mb-1 rounded-xl py-2 font-playwrite font-bold">
           EverGreen Trick Zone And Matka Tricks By SattaMatka555
         </div>
-        <div className="container border-2 border-blue-900 rounded-md">
+        <div className=" border-2 border-blue-900 rounded-md">
           <div className="red-container text-center py-2">
             <h1 className="text-white font-bold">
               SattaMatka555 Special Game Zone
             </h1>
           </div>
-          <div className="content py-2 text-xl flex flex-col  text-center text-purple-700 font-semibold">
+          <div className=" py-2 text-base sm:text-xl flex flex-col  text-center text-purple-700 font-semibold">
             <Link
               to={"/guessing-forum"}
               className="py-2 border-t border-red-600"
@@ -380,11 +380,11 @@ const MarketResult = () => {
       </div>
 
       <div className=" px-4">
-        <div className="container border-2 border-blue-900 rounded-md">
+        <div className=" border-2 border-blue-900 rounded-md">
           <div className="red-container text-center py-2">
             <h1 className="text-white font-bold">Matka Jodi List</h1>
           </div>
-          <div className="content py-2 text-xl flex flex-col text-center text-purple-700 font-semibold">
+          <div className="content py-2 text-base sm:text-xl flex flex-col text-center text-purple-700 font-semibold">
             <Link
               to={"/matka-jodi-count-chart"}
               className="py-2 border-t border-red-600"

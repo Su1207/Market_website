@@ -8,7 +8,7 @@ const About = () => {
 
   return (
     <div className=" w-full font-poppins bg-orange-100 min-h-screen ">
-      <h1 className=" text-4xl px-4 font-bold text-center font-playwrite py-8">
+      <h1 className=" text-4xl sm:text-5xl px-4 font-bold text-center font-playwrite py-8">
         About Us
       </h1>
 

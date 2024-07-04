@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        playwrite: ['"Playwrite AU TAS"', "sans-serif"],
+        playwrite: ["Kalam", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
       screens: {
@@ -14,7 +14,7 @@ export default {
         colorChange: {
           "0%": { color: "red" },
           "50%": { color: "purple" },
-          "100%": { color: "orange" },
+          "100%": { color: "green" },
         },
       },
       animation: {

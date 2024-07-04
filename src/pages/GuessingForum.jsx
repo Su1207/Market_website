@@ -28,9 +28,9 @@ const GuessingForum = () => {
 
   return (
     <div className="py-4 font-poppins bg-orange-300 min-h-screen">
-      <h1 className=" text-4xl font-bold text-center font-playwrite pt-4 pb-8">
-        SattaMatka555
-      </h1>
+      <div className=" flex items-center justify-center mb-4">
+        <img src="/logo.gif" alt="" />
+      </div>
       <div className=" border-2 rounded-md shadow-lg text-center border-pink-600 px-2 py-4 mb-8">
         <h1 className=" text-3xl font-semibold text-center mb-6">
           SattaMatka555 Satta Matka Guessing Kalyan Main Bazar Madhur Matka

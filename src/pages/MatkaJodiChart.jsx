@@ -6,17 +6,17 @@ const MatkaJodiChart = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
   return (
-    <div className="pt-4 font-poppins bg-orange-200 min-h-screen">
-      <h1 className=" text-4xl font-bold text-center font-playwrite pt-4 pb-8">
-        SattaMatka555
-      </h1>
+    <div className="pt-4 font-poppins bg-orange-300 min-h-screen">
+      <div className=" flex items-center justify-center mb-4">
+        <img src="/logo.gif" alt="" />
+      </div>
       <div className=" border-4 rounded-md shadow-lg text-center border-pink-600 py-4 px-2 mb-12">
         <h1 className=" text-xl font-semibold text-center">
           मटका जोड़ी काउंट चार्ट
         </h1>
       </div>
 
-      <h1 className=" text-2xl font-semibold font-playwrite text-center mb-4">
+      <h1 className=" text-4xl font-semibold font-playwrite text-center mb-4">
         MATKA JODI COUNT CHART
       </h1>
       <div className=" border-4 rounded-md shadow-lg text-center border-blue-900 p-2 px-4 mb-8">
