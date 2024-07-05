@@ -52,7 +52,7 @@ const GuessingForum = () => {
 
         <button
           onClick={handleUrl}
-          className=" bg-black border-2 rounded-md mt-4 px-3 py-2 text-sm text-white"
+          className=" bg-black border-2 rounded-md mt-4 px-3 py-2 text-sm animate-bounce text-white"
         >
           Click Here to Download App
         </button>
@@ -92,7 +92,12 @@ const GuessingForum = () => {
           Play Matka Online
           <br /> 101% Trusted - Fast Withdrawl
           <br />
-          <span className=" text-red-600 cursor-pointer">Download Now</span>
+          <span
+            onClick={handleUrl}
+            className=" text-red-800 font-bold text-lg animate-pulse cursor-pointer"
+          >
+            Download Now
+          </span>
         </p>
       </div>
 

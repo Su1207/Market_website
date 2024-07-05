@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { onValue, ref } from "firebase/database";
+import { get, onValue, ref } from "firebase/database";
 import { database } from "../firebase"; // Adjust the import based on your firebase configuration file
 import LoadingDots from "./LoadingDots";
 
@@ -16,6 +16,9 @@ const MarketTracker = () => {
     const savedOpenArray = localStorage.getItem("openArray");
     return savedOpenArray ? JSON.parse(savedOpenArray) : [];
   });
+
+  const [disclaimerList, setDisclaimerList] = useState({});
+  const [loading, setLoading] = useState(false);
 
   const [closeArray, setCloseArray] = useState(() => {
     const savedCloseArray = localStorage.getItem("closeArray");
@@ -272,65 +275,112 @@ const MarketTracker = () => {
     });
   }, []); // Empty dependency array so it runs only once
 
+  useEffect(() => {
+    if (openArray.length > 0 || closeArray.length > 0) {
+      setLoading(true);
+      const disclaimerArray = {};
+
+      const fetchDisclaimers = async (gameKey) => {
+        const dbRef = ref(database, `WEBSITE GAMES/${gameKey}/LIVE_DISCLAIMER`);
+        const snapshot = await get(dbRef);
+        if (snapshot.exists()) {
+          return snapshot.val();
+        }
+        return null;
+      };
+
+      const fetchAllDisclaimers = async () => {
+        for (const game of [...openArray, ...closeArray]) {
+          const disclaimer = await fetchDisclaimers(game.gameKey);
+          if (disclaimer) {
+            disclaimerArray[game.gameKey] = disclaimer;
+          }
+        }
+        setDisclaimerList(disclaimerArray);
+        setLoading(false);
+      };
+
+      fetchAllDisclaimers();
+    }
+  }, [openArray, closeArray]);
+
+  console.log(disclaimerList);
+
   return (
     <div className=" w-full font-poppins my-8">
       <h2 className=" text-center font-playwrite text-3xl sm:text-5xl font-bold">
         LIVE RESULTS
       </h2>
-      {openArray.length === 0 && closeArray.length === 0 ? (
-        <div className=" flex items-center justify-center text-lg sm:text-xl font-bold p-4 text-blue-950">
-          No Live Result
-        </div>
-      ) : (
-        <div className=" flex flex-col items-center gap-3 justify-center mt-5 border-red-500  bg-orange-400 border mx-4 rounded-md p-4 shadow-lg">
+      {(openArray.length > 0 || closeArray.length > 0) && !loading ? (
+        <div className=" flex flex-col  gap-3 mt-5 border-red-500  bg-orange-400 border mx-4 rounded-md p-4 shadow-lg">
           <ul className=" flex flex-col gap-3">
             {openArray.map((market, index) => (
-              <li key={index} className="flex flex-col items-center">
-                <div className=" text-lg sm:text-2xl font-bold text-blue-950">
-                  {market.NAME}
+              <li key={index} className=" w-full">
+                <div className="flex flex-col justify-center items-center">
+                  <div className=" text-lg sm:text-2xl font-bold text-blue-950">
+                    {market.NAME}
+                  </div>
+                  <div className=" font-semibold text-base text-center sm:text-lg text-green-700">
+                    {currentResults[market.gameKey] ? (
+                      <div className=" font-bold text-xl">
+                        {currentResults[market.gameKey]}
+                        <div className=" font-playwrite text-sm mt-1 text-black animate-pulse">
+                          {disclaimerList[market.gameKey]
+                            ? `${market.NAME} में पास हुआ अंक - ${
+                                currentResults[market.gameKey].split("-")[1]
+                              }`
+                            : ""}
+                        </div>
+                      </div>
+                    ) : (
+                      <div className=" flex items-end gap-1">
+                        Loading
+                        <LoadingDots />
+                      </div>
+                    )}
+                  </div>
                 </div>
-                <div className=" font-semibold text-base sm:text-lg text-green-700">
-                  {currentResults[market.gameKey] ? (
-                    currentResults[market.gameKey]
-                  ) : (
-                    <div className=" flex items-end gap-1">
-                      Loading
-                      <LoadingDots />
-                    </div>
-                  )}
-                </div>
+                <div className=" w-full h-0 border border-blue-950 my-4"></div>
               </li>
             ))}
           </ul>
           <ul className=" flex flex-col gap-3">
             {closeArray.map((market, index) => (
               <li key={index} className="flex flex-col items-center">
-                <div className=" text-lg sm:text-2xl font-bold text-blue-950">
-                  {market.NAME}
+                <div className="flex flex-col justify-center items-center">
+                  <div className=" text-lg sm:text-2xl font-bold text-blue-950">
+                    {market.NAME}
+                  </div>
+                  <div className=" font-semibold text-base text-center sm:text-lg text-green-700">
+                    {currentResults[market.gameKey] ? (
+                      <div className=" font-bold text-xl">
+                        {currentResults[market.gameKey]}
+                        <div className=" font-playwrite text-sm mt-1 text-black animate-pulse">
+                          {disclaimerList[market.gameKey]
+                            ? `${market.NAME} में पास हुआ अंक - ${
+                                currentResults[market.gameKey].split("-")[1][1]
+                              }`
+                            : ""}
+                        </div>
+                      </div>
+                    ) : (
+                      <div className=" flex items-end gap-1">
+                        Loading
+                        <LoadingDots />
+                      </div>
+                    )}
+                  </div>
                 </div>
-                <div className=" font-semibold text-base sm:text-lg text-green-700 ">
-                  {currentResults[market.gameKey] ? (
-                    currentResults[market.gameKey]
-                  ) : (
-                    <div className=" flex items-end gap-1">
-                      Loading
-                      <LoadingDots />
-                    </div>
-                  )}
-                </div>
+                <div className=" w-full h-0 border border-blue-950 my-4"></div>
               </li>
             ))}
           </ul>
         </div>
+      ) : (
+        <div className=" flex items-center justify-center text-lg sm:text-xl font-bold p-4 text-blue-950">
+          No Live Result
+        </div>
       )}
-      {/* <h2>Current Results</h2>
-      <ul>
-        {Object.keys(currentResults).map((marketName, index) => (
-          <li key={index}>
-            {marketName}: {JSON.stringify(currentResults[marketName])}
-          </li>
-        ))}
-      </ul> */}
     </div>
   );
 };

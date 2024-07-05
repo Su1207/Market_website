@@ -48,14 +48,11 @@ const MarketResult = () => {
 
   const convertToTime = (timestamp) => {
     const currentDate = new Date(timestamp);
-    const hours = (currentDate.getHours() % 12 || 12)
-      .toString()
-      .padStart(2, "0");
-    const min = currentDate.getMinutes().toString().padStart(2, "0");
-
-    const meridiem = currentDate.getHours() >= 12 ? "PM" : "AM";
-
-    return `${hours}:${min} ${meridiem}`;
+    return currentDate.toLocaleTimeString([], {
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: true,
+    });
   };
 
   useEffect(() => {
@@ -84,20 +81,15 @@ const MarketResult = () => {
             const open = gameSnapshot.child("OPEN").val();
             const close = gameSnapshot.child("CLOSE").val();
             const lucky_no = gameSnapshot.child("LUCKY_NO").val();
+            // const disclaimer = gameSnapshot.child("LIVE_DISCLAIMER").val();
 
             const resultString = resultData
               ? formatResult(resultData.OPEN, resultData.MID, resultData.CLOSE)
               : "✦✦✦-✦✦-✦✦✦";
 
-            const openTime = new Date(open).toLocaleTimeString([], {
-              hour: "2-digit",
-              minute: "2-digit",
-            });
+            const openTime = convertToTime(open);
 
-            const closeTime = new Date(close).toLocaleTimeString([], {
-              hour: "2-digit",
-              minute: "2-digit",
-            });
+            const closeTime = convertToTime(close);
 
             combinedData.push({
               key: gameKey,
@@ -188,12 +180,12 @@ const MarketResult = () => {
             अब सभी मटका बाजार खेलो ऑनलाइन ऐप पर रोज खेलो रोज कमाओ अभी डाउनलोड
             करो
           </p>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center my-4 animate-bounce">
             <button
               onClick={handleUrl}
               className=" px-4 py-1 bg-blue-900 text-white border-2 flex items-center gap-1 justify-center rounded-full shadow-lg"
             >
-              <img src="/direction.png" alt="" className="h-8" />
+              <img src="/direction.png" alt="" className="h-8 animate-bounce" />
               Play Matka Online
             </button>
           </div>
@@ -302,7 +294,7 @@ const MarketResult = () => {
       <div className="px-4 mb-2">
         <div className=" bg-gray-100 border-2 flex items-center flex-wrap gap-2 justify-center border-red-500 shadow-lg text-center mb-1 rounded-xl py-2 text-sm sm:text-base md:text-xl  font-bold">
           Contact for any inquiries Or Support:
-          <span className="py-1 px-5 shadow-lg text-blue-950 bg-orange-400 rounded-full">
+          <span className="py-1 px-5 text-base shadow-lg text-black animate-ping hover:animate-none bg-cyan-500 rounded-full">
             +91-8888888888
           </span>
         </div>
