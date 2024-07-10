@@ -8,15 +8,15 @@ import { getDatabase } from "firebase/database";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCQ4kuIJVnulAjDY9XpfyBvWdKN70do23Q",
-  authDomain: "test-5c719.firebaseapp.com",
+  apiKey: "AIzaSyASrrySoryuc5ypylkrimoamFlIouCTVFQ",
+  authDomain: "websiteadmin-d892e.firebaseapp.com",
   databaseURL:
-    "https://test-5c719-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "test-5c719",
-  storageBucket: "test-5c719.appspot.com",
-  messagingSenderId: "733444874122",
-  appId: "1:733444874122:web:9876f24aae8a8bc4473273",
-  measurementId: "G-4VLQJJC5SC",
+    "https://websiteadmin-d892e-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "websiteadmin-d892e",
+  storageBucket: "websiteadmin-d892e.appspot.com",
+  messagingSenderId: "668572504880",
+  appId: "1:668572504880:web:0ef9c06d6146232b5feef5",
+  measurementId: "G-08G1JZERL7",
 };
 
 // Initialize Firebase
