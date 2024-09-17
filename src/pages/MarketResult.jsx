@@ -41,10 +41,40 @@ const MarketResult = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [url, setUrl] = useState("");
 
-  const currentDate = new Date();
-  const year = currentDate.getFullYear().toString();
-  const month = (currentDate.getMonth() + 1).toString().padStart(2, "0");
-  const day = currentDate.getDate().toString().padStart(2, "0");
+  const getAdjustedDate = () => {
+    const currentDate = new Date();
+
+    // Get current hour to check if it's before or after 1 AM
+    const currentHour = currentDate.getHours();
+
+    // If the time is before 1 AM, use the previous day's date
+    if (currentHour < 1) {
+      currentDate.setDate(currentDate.getDate() - 1);
+      currentDate.setHours(0, 0, 0, 0);
+    }
+
+    const year = currentDate.getFullYear().toString();
+    const month = (currentDate.getMonth() + 1).toString().padStart(2, "0");
+    const day = currentDate.getDate().toString().padStart(2, "0");
+
+    // const hour = (currentDate.getHours() % 12 || 12)
+    //   .toString()
+    //   .padStart(2, "0");
+    // const min = currentDate.getMinutes().toString().padStart(2, "0");
+    // const sec = currentDate.getSeconds().toString().padStart(2, "0");
+
+    // // Determine AM/PM
+    // const meridiem = currentDate.getHours() >= 12 ? "PM" : "AM";
+
+    // // Create date string in desired format
+    // const dateString = `${date}-${month}-${year} | ${hour}:${min}:${sec} ${meridiem}`;
+
+    // const timestamp = currentDate.getTime();
+
+    return { year, month, day };
+  };
+
+  const { year, month, day } = getAdjustedDate();
 
   const convertToTime = (timestamp) => {
     const currentDate = new Date(timestamp);
@@ -294,7 +324,7 @@ const MarketResult = () => {
       <div className="px-4 mb-2">
         <div className=" bg-gray-100 border-2 flex items-center flex-wrap gap-2 justify-center border-red-500 shadow-lg text-center mb-1 rounded-xl py-2 text-sm sm:text-base md:text-xl  font-bold">
           Contact for any inquiries Or Support:
-          <span className="py-1 px-5 text-base shadow-lg text-black animate-ping hover:animate-none bg-cyan-500 rounded-full">
+          <span className="py-1 px-5 text-base shadow-lg text-black bg-cyan-500 rounded-full">
             +91-8888888888
           </span>
         </div>
